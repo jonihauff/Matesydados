@@ -1,0 +1,27 @@
+- Nombre del proyecto: "mates y dados" o "volvamos a jugar".
+- Dominio: Juegos de mesa. Porque a medida que avanza la virtualidad cada vez se sociabiliza menos y es mas difícil hacerlo, proponemos hacerlo en un espacio de diversión y con una actividad en común. Para esto queremos desarrollar una herramienta que ayude a elegir el juego según las necesidades y divertirse.
+- Problema que Resuelve: Quiero elegir un juego para 4 amigos adultos con partidas cortas y que sea de dados o cartas. Quiero regalarle un juego a mi hijo de 7 años para que juegue con sus amigos y que sea cooperativo que no compitan entre ellos. 
+- Funcionalidades: A) Búsqueda: Ej: Monopoly  B)Ordenar: por calificaciones, duración,Popular  C)Filtrar: por características como edad, duración, jugadores. D) Recomendar similares  E) Agregar un juego. 
+- Ejemplo de interfaz e interacción:
+-- > Buscar
+-- > búsqueda avanzada
+-- > Todos los juegos
+
+
+ Busco un juego con criterios específicos:
+Filtrar juegos: de 3 o mas jugadores, mas de 10 años, genero : conquista y mapas
+--> Catán        <--
+--> TEG
+--> Smallworld
+...
+
+Catán:
+Edad Minima: 10
+min jugadores: 3
+Max jugadores 4
+Valoración: 8.0
+Dificultad: 2/5
+
+--> Juegos relacionados / expansiones 
+--> Recomendar similares               <-- 
+
