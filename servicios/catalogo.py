@@ -15,7 +15,7 @@ class Catalogo:
             juego = Juego(
                 id=item["id"],
                 nombre=item["nombre"],
-                año=item["año"]
+                año=item["año"],
                 min_jugadores=item["min_jugadores"],
                 max_jugadores=item["max_jugadores"],
                 edad_min=item["edad_minima"],
@@ -32,6 +32,13 @@ class Catalogo:
 
     def mostrar_todos(self):
         return list(self._juegos)
+    
+    def filtrar_por_categoria(self, categoria_buscada):
+        cat_bus = categoria_buscada.lower().strip()
+        
+        resultado_filtrado = filter(lambda juego: cat_bus in [c.lower() for c in juego.get_categorias()],self._juegos
+        )
+        return list(resultado_filtrado)
     
     def __len__(self):
         return len(self._juegos)

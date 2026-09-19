@@ -63,6 +63,6 @@ class Juego :
             f"Categorías: {', '.join(self._categorias)}\n"
             f"Mecánicas: {', '.join(self._mecanicas)}\n"
             f"Modo: {self._modo}\n"
-            f"Rating: ⭐ {self._rating}\n"
+            f"Rating:  {self._rating}\n"
             f"{'-'*30}"
             )
