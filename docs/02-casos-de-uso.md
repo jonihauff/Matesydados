@@ -1,3 +1,5 @@
+# Matesydados
+
 ## Diagrama de Casos de Uso
 
 ```mermaid
@@ -16,6 +18,18 @@ graph LR
 ```
 
 
+  ---
+### CU 1: Buscar juego por nombre
+* **Actor:** Usuario
+* **Precondición:** El catálogo de juegos (`datos/juegos.json`) fue cargado en memoria al iniciar la aplicación.
+* **Flujo Principal:**
+  1. El usuario selecciona la opción `1` ("Buscar juego por nombre") en el menú de la terminal.
+  2. El sistema solicita ingresar el nombre del juego de mesa.
+  3. El usuario ingresa el nombre (ej. "Catan").
+  4. El sistema consulta en la clase `Catalogo` buscando coincidencias por título (sin diferenciar mayúsculas y minúsculas).
+  5. El sistema muestra en pantalla la ficha técnica detallada del juego utilizando la representación de la clase `Juego` (`__repr__`).
+* **Flujo Alternativo:**
+  * Si el juego no se encuentra en el catálogo, el sistema informa: *"No se encontro el juego (nombre del juego)"*.
 
   ---
 
@@ -43,4 +57,11 @@ graph LR
 * **Flujo Alternativo:**
   * Si el catálogo se encuentra vacío, el sistema indica: *"No hay juegos cargados"*.
 
+  ---
+
+### CU 4: Salir del sistema
+* **Actor:** Usuario
+* **Flujo Principal:**
+  1. El usuario selecciona la opción `4` ("Salir").
+  2. El sistema muestra un mensaje de despedida (*"Gracias por visitarnos! Hasta luego."*) y finaliza el bucle de ejecución.
 

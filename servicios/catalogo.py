@@ -33,12 +33,33 @@ class Catalogo:
     def mostrar_todos(self):
         return list(self._juegos)
     
+    # Devuelve una lista filtrada por la categoria que elige el usuario.
     def filtrar_por_categoria(self, categoria_buscada):
         cat_bus = categoria_buscada.lower().strip()
         
         resultado_filtrado = filter(lambda juego: cat_bus in [c.lower() for c in juego.get_categorias()],self._juegos
         )
         return list(resultado_filtrado)
+    
+    #Devuelve una lista ordenada para indicar al usuario que categorias puede elegir.
+    def obtener_categorias_disponibles(self) -> list[str]:
+        
+        categorias_set = set()
+        
+        for juego in self._juegos:
+            for cat in juego.get_categorias():
+                categorias_set.add(cat.strip())
+                
+        return sorted(list(categorias_set))
+    
+    #Devuelve una lista con los juegos que coinciden con el nombre ingresado por el usuario.
+    def buscar_por_nombre(self, nombre:str):
+        nombre_limpio = nombre.lower().strip()
+        
+        juego_buscado = filter(lambda juego: nombre_limpio in juego.get_nombre().lower(),self._juegos 
+        )
+        return list(juego_buscado)
+        
     
     def __len__(self):
         return len(self._juegos)

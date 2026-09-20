@@ -17,10 +17,10 @@ class Terminal:
     def inicio(self):
         while True :
             self.mostrar_menu()
-            opcion = input("ingrese el n° de la opcion elegida").strip()
+            opcion = input("ingrese el n° de la opcion elegida: ").strip()
             
             if opcion == "1":
-                print ("buscando por nombre")
+                self._buscar_por_nombre()
             elif opcion == "2":
                 self._filtrar_por_categoria()
             elif opcion == "3":
@@ -42,7 +42,12 @@ class Terminal:
                 print()
                 
     def _filtrar_por_categoria(self):
-        categoria = input("Ingrese la categoría a buscar (ej. Estrategia): ").strip()
+        categorias = self._catalogo.obtener_categorias_disponibles()
+        if categorias:
+            print("\nCategorías disponibles:", ", ".join(categorias))
+            print("-" * 30)
+        
+        categoria = input("Ingrese la categoría a buscar (ej. Estrategia):  ").strip()
         if not categoria:
             print("No ingresaste ninguna categoría.")
             return
@@ -54,5 +59,21 @@ class Terminal:
         else:
             print(f"\n- Juegos en la categoría '{categoria}' ({len(juegos_filtrados)}): ")
             for juego in juegos_filtrados:
+                print(juego)
+                print()
+                
+    def _buscar_por_nombre(self):
+        nombre = input("ingrese el nombre del juego:  " ).strip()
+        if not nombre:
+            print("No ha ingresado ningun nombre.")
+            return
+        
+        juego_buscado = self._catalogo.buscar_por_nombre(nombre)
+        
+        if not juego_buscado:
+            print(f"No se encontro el juego '{nombre}'.")
+        else:
+            print(f"\n- Se encontraron ({len(juego_buscado)}) juegos que coinciden con '{nombre}' : ")
+            for juego in juego_buscado:
                 print(juego)
                 print()
