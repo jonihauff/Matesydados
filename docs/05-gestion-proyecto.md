@@ -47,7 +47,7 @@ Que salió bien:
 Creo que hubo una buena separacion en las responsabilidades del codigo, para que la terminal, catalogo, juego y main tuvieran tareas definidas.
 Hubo una incorporacion de lambda por primera vez para simplificar funciones.
 La primera versión de la aplicacion se encuentra funcionando y sin errores hasta el momento.
-se incorporaron nuevos datasets de 500 y 10.000 juegos.
+Se incorporaron nuevos datasets de 500 y 10.000 juegos adaptados al TP, fueron creados a partir de un dataset padre basado en datos de https://boardgamegeek.com/ con un scrip generador, ambos obtenidos con apoyo de una IA.
 El mayor desafio fueron las integraciones entre el catálogo y la terminal, los errores que generaron y encontrar cual es el error para poder solucionarlo. 
 
 Que se puede mejorar:

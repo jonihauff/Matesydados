@@ -1,15 +1,21 @@
 import json
+from estructuras.arbol_binario import ArbolBST
 from modelos.juego import Juego
 
 class Catalogo:
+    
     def __init__(self):
         self._juegos = []
-    
+        self._arbol_nombre = ArbolBST()
+        
     def cargar_datos(self):
         with open('datos/juegos.json',"r",encoding="UTF-8" ) as archivo:
             datos= json.load(archivo)
         
         self._juegos.clear()
+        self._arbol_nombre = ArbolBST()
+        
+        clave_nombre = lambda j: j.get_nombre().lower()
     
         for item in datos:
             juego = Juego(
@@ -27,6 +33,7 @@ class Catalogo:
                 rating=item["rating"]
     )
             self._juegos.append(juego)
+            self._arbol_nombre.insertar(juego, clave_nombre)
         
         print(f"se cargaron {len(self._juegos)} juegos")
 
@@ -52,14 +59,11 @@ class Catalogo:
                 
         return sorted(list(categorias_set))
     
-    #Devuelve una lista con los juegos que coinciden con el nombre ingresado por el usuario.
-    def buscar_por_nombre(self, nombre:str):
-        nombre_limpio = nombre.lower().strip()
+    #Busca un juego por nombre utilizando la estructura de Árbol BST.
+    def buscar_por_nombre(self, nombre: str):
         
-        juego_buscado = filter(lambda juego: nombre_limpio in juego.get_nombre().lower(),self._juegos 
-        )
-        return list(juego_buscado)
-        
+        clave_nombre = lambda j: j.get_nombre().lower()
+        return self._arbol_nombre.buscar(nombre.strip().lower(), clave_nombre)    
     
     def __len__(self):
         return len(self._juegos)

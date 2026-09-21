@@ -5,7 +5,7 @@ el proyecto busca ayudar a elegir y recomendar juegos para cada persona segun su
 
 ## Integrantes
  - Jonathan Maximiliano Hauff (Proyecto individual)
- 
+
 ## Requisitos
 - Pyton 3 instalado.
 
@@ -35,12 +35,23 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 - [Diagrama de datos](docs/04-diagrama-datos.md)
 - [Gestión del proyecto](docs/05-gestion-proyecto.md)
 
+## Generación de datasets
+
+Los datasets JSON se generan a partir de un CSV basado en datos de BoardGameGeek.
+
+1. Descargar el dataset original desde [https://www.kaggle.com/datasets/sujaykapadnis/board-games].
+2. Guardarlo como `datos/origen/board_games.csv`.
+3. Ejecutar:
+```bash
+python datos/generar_datasets.py
+```
+
 ## Estado del proyecto
 | Entrega |   Estado   |
 |  ---    |    ---     |
 | TP0     | Completado |
-| TP1     | En progreso|
-| TP2     |  Pendiente |
+| TP1     | Completado |
+| TP2     | En progreso|
 | TP3     |  Pendiente |
 | TP4     |  Pendiente |
 | TP5     |  Pendiente |
