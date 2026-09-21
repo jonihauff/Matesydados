@@ -24,3 +24,6 @@ ENV/
 # Archivos del sistema operativo
 .DS_Store
 Thumbs.db
+
+# Dataset de origen
+datos/origen/
