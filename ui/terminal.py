@@ -63,17 +63,16 @@ class Terminal:
                 print()
                 
     def _buscar_por_nombre(self):
-        nombre = input("ingrese el nombre del juego:  " ).strip()
+        nombre = input("Ingrese el nombre del juego: ").strip()
         if not nombre:
-            print("No ha ingresado ningun nombre.")
+            print("No ha ingresado ningún nombre.")
             return
-        
+
         juego_buscado = self._catalogo.buscar_por_nombre(nombre)
-        
-        if not juego_buscado:
-            print(f"No se encontro el juego '{nombre}'.")
+
+        if juego_buscado is None:
+            print(f"No se encontró el juego '{nombre}'.")
         else:
-            print(f"\n- Se encontraron ({len(juego_buscado)}) juegos que coinciden con '{nombre}' : ")
-            for juego in juego_buscado:
-                print(juego)
-                print()
+            print(f"\n- Juego encontrado que coincide con '{nombre}':\n")
+            print(juego_buscado)
+            print()

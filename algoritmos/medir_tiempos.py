@@ -1,15 +1,17 @@
 import bisect
+import random
 import timeit
+from estructuras.arbol_binario import ArbolBST
 from modelos.juego import Juego
 
 
-def generar_juegos(n):
-    """Crea una lista de n objetos Juego para probar la búsqueda."""
+def generar_juegos(n: int) -> list[Juego]:
+    """Crea una lista de n objetos Juego para probar las búsquedas."""
     juegos = []
     for i in range(n):
         j = Juego(
             id=i,
-            nombre=f"Juego {i:06d}",
+            nombre=f"Juego {i:06d}",  # Nombres formateados para mantener orden alfabético estricto
             año=2024,
             min_jugadores=2,
             max_jugadores=4,
@@ -25,8 +27,8 @@ def generar_juegos(n):
     return juegos
 
 
-def busqueda_secuencial(lista, nombre_buscado):
-    """Búsqueda lineal recorriendo uno por uno los elementos."""
+def busqueda_secuencial(lista: list[Juego], nombre_buscado: str) -> Juego | None:
+    """Búsqueda lineal O(n)."""
     nombre_lower = nombre_buscado.lower()
     for item in lista:
         if item.get_nombre().lower() == nombre_lower:
@@ -34,8 +36,12 @@ def busqueda_secuencial(lista, nombre_buscado):
     return None
 
 
-def busqueda_binaria(lista_ordenada, nombres_ordenados, nombre_buscado):
-    """Búsqueda binaria sobre listas previamente ordenadas."""
+def busqueda_binaria(
+    lista_ordenada: list[Juego],
+    nombres_ordenados: list[str],
+    nombre_buscado: str,
+) -> Juego | None:
+    """Búsqueda binaria O(log n) sobre lista ordenada."""
     idx = bisect.bisect_left(nombres_ordenados, nombre_buscado.lower())
     if (
         idx < len(nombres_ordenados)
@@ -48,21 +54,36 @@ def busqueda_binaria(lista_ordenada, nombres_ordenados, nombre_buscado):
 def ejecutar_mediciones():
     tamaños = [100, 1000, 10000, 100000]
 
-    print("=========================================================")
-    print("MEDICIÓN 1 Y 2: SECUENCIAL VS. BINARIA")
-    print("=========================================================")
-    print(f"{'N Elementos':<12} | {'Secuencial (ms)':<15} | {'Binaria (ms)':<15}")
-    print("---------------------------------------------------------")
+    print("===================================================================")
+    print("MEDICIÓN COMPLETA: SECUENCIAL VS. BINARIA VS. ÁRBOL BST")
+    print("===================================================================")
+    print(
+        f"{'N Elementos':<11} | {'Secuencial (ms)':<15} | {'Binaria (ms)':<13} | {'Árbol BST (ms)':<14}"
+    )
+    print("-------------------------------------------------------------------")
+
+    clave_nombre = lambda j: j.get_nombre().lower()
 
     for n in tamaños:
         lista = generar_juegos(n)
-        buscado = f"Juego {n - 1:06d}"  # Peor caso
+        buscado = f"Juego {n - 1:06d}"  # Peor caso: el último elemento
 
-        # Preparamos la estructura ordenada fuera del cronómetro
-        lista_ordenada = sorted(lista, key=lambda j: j.get_nombre().lower())
-        nombres_ordenados = [j.get_nombre().lower() for j in lista_ordenada]
+        # --- PREPARACIÓN DE ESTRUCTURAS (FUERA DEL CRONÓMETRO) ---
+        # 1. Búsqueda binaria
+        lista_ordenada = sorted(lista, key=clave_nombre)
+        nombres_ordenados = [clave_nombre(j) for j in lista_ordenada]
 
-        # 1. Medición Búsqueda Secuencial
+        # 2. Árbol BST (mezclamos para evitar el caso degenerado en BST)
+        lista_mezclada = list(lista)
+        random.seed(42)
+        random.shuffle(lista_mezclada)
+
+        arbol = ArbolBST()
+        for juego in lista_mezclada:
+            arbol.insertar(juego, clave_nombre)
+
+        # --- MEDICIONES CON TIMEIT ---
+        # 1. Secuencial
         t_sec = (
             min(
                 timeit.repeat(
@@ -75,7 +96,7 @@ def ejecutar_mediciones():
             * 1000
         )
 
-        # 2. Medición Búsqueda Binaria
+        # 2. Binaria
         t_bin = (
             min(
                 timeit.repeat(
@@ -90,9 +111,24 @@ def ejecutar_mediciones():
             * 1000
         )
 
-        print(f"{n:<12} | {t_sec:<15.4f} | {t_bin:<15.4f}")
+        # 3. Árbol BST
+        t_arbol = (
+            min(
+                timeit.repeat(
+                    lambda: arbol.buscar(buscado.lower(), clave_nombre),
+                    number=10,
+                    repeat=5,
+                )
+            )
+            / 10
+            * 1000
+        )
 
-    print("=========================================================")
+        print(
+            f"{n:<11} | {t_sec:<15.4f} | {t_bin:<13.4f} | {t_arbol:<14.4f}"
+        )
+
+    print("===================================================================")
 
 
 if __name__ == "__main__":
