@@ -33,7 +33,7 @@ La mayor dificultad fue pasar de una idea a ordenar todo un proyecto por etapas,
 - Quiero que el usuario pueda ver el catalogo completo de juegos.
 
 #### Criterio de aceptación
-- El menú se ejecuta en un bucle continuo (`while True`) hasta que el usuario elija la opción de salir (`4`).
+- El menú se ejecuta en un bucle continuo (while True) hasta que el usuario elija la opción de salir (4).
 - Muestra un mensaje de error si se ingresa una opción inválida sin que el programa cierre inesperadamente.
 - La búsqueda es case-insensitive.
 - Si no hay coincidencias o el usuario no igresa nada, el sistema muestra un mensaje informativo sin interrumpir el bucle de la aplicación.
@@ -54,3 +54,24 @@ Que se puede mejorar:
 Trabajar con ramas independientes para cada parte del proyecto (aunque sea yo el único autor) para aprender a trabajar en diferentes ramas como lo haría en un equipo en un trabajo real.
 Hacer un commit por cada tarea resuelta.
 Agregar mas comentarios al código que describan funcionalidades por segmentos.
+
+### TP-3:
+#### Objetivos
+- Implementar la estructura de datos Árbol Binario de Búsqueda (BST).
+- Integrar el árbol BST en la clase Catalogo para optimizar la búsqueda por nombre.
+- Realizar pruebas de rendimiento y recorridos (Inorder, Preorder, Postorder).
+
+#### Historias de usuario
+- Como usuario, quiero buscar juegos por nombre con un tiempo de respuesta optimizado mediante un árbol de búsqueda.
+
+#### Criterios de aceptación
+- La estructura ArbolBST debe permitir la inserción y búsqueda por clave de nombre.
+- El método de búsqueda delega en el BST logrando un tiempo promedio O(log n).
+- Generar el informe de análisis empírico (docs/07-analisis-tp3.md) registrando la altura del árbol, recorridos y comparativa de tiempos de búsqueda.
+
+#### Retrospectiva
+Que salió bien:
+La integración del BST funcionó correctamente sin alterar la interfaz de la Terminal.
+Se generó el analisis de rendimiento.
+Que se puede mejorar:
+Se corre el riesgo de degeneracion del arbol BST, se planea mejorar a un árbol AVL.

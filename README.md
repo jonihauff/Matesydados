@@ -51,8 +51,8 @@ python datos/generar_datasets.py
 |  ---    |    ---     |
 | TP0     | Completado |
 | TP1     | Completado |
-| TP2     | En progreso|
-| TP3     |  Pendiente |
+| TP2     | Completado |
+| TP3     | Completado |
 | TP4     |  Pendiente |
 | TP5     |  Pendiente |
 | TP6     |  Pendiente |

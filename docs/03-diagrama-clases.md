@@ -30,25 +30,39 @@ classDiagram
         +__repr__() str
     }
 
+    class ArbolBST {
+        -NodoArbol raiz
+        +insertar(dato, clave) None
+        +buscar(valor, clave) Juego
+        +inorder() list
+        +preorder() list
+        +postorder() list
+        +altura() int
+        +esta_vacio() bool
+    }
+
     class Catalogo {
         -list _juegos
-        +cargar_datos() void
+        -ArbolBST _arbol_nombre
+        +cargar_datos() None
         +mostrar_todos() list
         +filtrar_por_categoria(categoria_buscada) list
         +obtener_categorias_disponibles() list
-        +buscar_por_nombre(nombre) list
+        +buscar_por_nombre(nombre) Juego
         +__len__() int
     }
 
     class Terminal {
         -Catalogo _catalogo
-        +mostrar_menu() void
-        +inicio() void
-        -_mostrar_todos() void
-        -_filtrar_por_categoria() void
-        -_buscar_por_nombre() void
+        +mostrar_menu() None
+        +inicio() None
+        -_mostrar_todos() None
+        -_filtrar_por_categoria() None
+        -_buscar_por_nombre() None
     }
 
     Terminal --> Catalogo : usa
     Catalogo "1" o-- "*" Juego : contiene
+    Catalogo --> ArbolBST : delega búsqueda por nombre
+    ArbolBST "1" o-- "*" Juego : ordena por clave nombre
     ```
