@@ -9,7 +9,7 @@ class Catalogo:
         self._arbol_nombre = AVL()
         
     def cargar_datos(self):
-        with open('datos/juegos.json',"r",encoding="UTF-8" ) as archivo:
+        with open('datos/juegos_500.json',"r",encoding="UTF-8" ) as archivo:
             datos= json.load(archivo)
         
         self._juegos.clear()
