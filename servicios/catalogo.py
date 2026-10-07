@@ -1,19 +1,19 @@
 import json
-from estructuras.arbol_binario import ArbolBST
+from estructuras.avl import AVL
 from modelos.juego import Juego
 
 class Catalogo:
     
     def __init__(self):
         self._juegos = []
-        self._arbol_nombre = ArbolBST()
+        self._arbol_nombre = AVL()
         
     def cargar_datos(self):
         with open('datos/juegos.json',"r",encoding="UTF-8" ) as archivo:
             datos= json.load(archivo)
         
         self._juegos.clear()
-        self._arbol_nombre = ArbolBST()
+        self._arbol_nombre = AVL()
         
         clave_nombre = lambda j: j.get_nombre().lower()
     
@@ -59,7 +59,7 @@ class Catalogo:
                 
         return sorted(list(categorias_set))
     
-    #Busca un juego por nombre utilizando la estructura de Árbol BST.
+    #Busca un juego por nombre utilizando la estructura de Árbol AVL.
     def buscar_por_nombre(self, nombre: str):
         
         clave_nombre = lambda j: j.get_nombre().lower()
