@@ -1,12 +1,14 @@
 import json
 from estructuras.avl import AVL
 from modelos.juego import Juego
+from servicios.jerarquia_categorias import crear_arbol_categorias
 
 class Catalogo:
     
     def __init__(self):
         self._juegos = []
         self._arbol_nombre = AVL()
+        self._arbol_categorias = crear_arbol_categorias()
         
     def cargar_datos(self):
         with open('datos/juegos_500.json',"r",encoding="UTF-8" ) as archivo:
@@ -58,6 +60,17 @@ class Catalogo:
                 categorias_set.add(cat.strip())
                 
         return sorted(list(categorias_set))
+    #Devuelve las 9 categorias principales
+    def obtener_grupos_categorias(self):
+        return self._arbol_categorias.listar_hijos(
+            self._arbol_categorias.raiz
+        )
+    #Busca una categoria y devuelve las subcategorias hijas
+    def obtener_categorias_de_grupo(self, nombre_grupo):
+        nodo_grupo = self._arbol_categorias.buscar(nombre_grupo)
+        if nodo_grupo is None:
+            return []
+        return self._arbol_categorias.listar_hijos(nodo_grupo)
     
     #Busca un juego por nombre utilizando la estructura de Árbol AVL.
     def buscar_por_nombre(self, nombre: str):

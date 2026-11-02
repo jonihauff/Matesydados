@@ -9,7 +9,7 @@ class Terminal:
         print("Recomendador de juegos de mesa")
         print ("="*30)
         print("1 - Buscar juego por nombre")
-        print("2 - Filtrar por categoria")
+        print("2 - Buscar por categoria")
         print("3 - Mostrar todos los juegos")
         print("4 - Salir")
         print("-"*30)
@@ -22,7 +22,7 @@ class Terminal:
             if opcion == "1":
                 self._buscar_por_nombre()
             elif opcion == "2":
-                self._filtrar_por_categoria()
+                self._buscar_por_categoria()
             elif opcion == "3":
                 self._mostrar_todos()
             elif opcion == "4":
@@ -41,35 +41,84 @@ class Terminal:
                 print(juego)
                 print()
                 
-    def _filtrar_por_categoria(self):
-        categorias = self._catalogo.obtener_categorias_disponibles()
-        if categorias:
-            print("\nCategorías disponibles:", ", ".join(categorias))
-            print("-" * 30)
+    def _buscar_por_categoria(self):
+                
+        grupos = self._catalogo.obtener_grupos_categorias()
         
-        categoria = input("Ingrese la categoría a buscar (ej. Estrategia):  ").strip()
-        if not categoria:
-            print("No ingresaste ninguna categoría.")
+        if not grupos:
+            print("No hay grupos de categorías disponibles.")
             return
-
-        juegos_filtrados = self._catalogo.filtrar_por_categoria(categoria)
         
-        if not juegos_filtrados:
-            print(f"No se encontraron juegos pertenecientes a la categoría ingresada'{categoria}'.")
+        print("\nGrupos disponibles:")
+        for indice, grupo in enumerate(grupos, start=1):
+            print(f"{indice} - {grupo}")
+        print("0 - Volver")
+        
+        seleccion = input("Elegí un grupo: ").strip()
+        
+        if seleccion == "0":
+            return
+        
+        try:
+            indice_grupo = int(seleccion) - 1
+        except ValueError:
+            print("La opción ingresada no es válida.")
+            return
+        
+        if indice_grupo < 0 or indice_grupo >= len(grupos):
+            print("La opción ingresada no es válida.")
+            return
+        
+        grupo_elegido = grupos[indice_grupo]
+        categorias = self._catalogo.obtener_categorias_de_grupo(grupo_elegido)
+        
+        if not categorias:
+            print(f"El grupo '{grupo_elegido}' no tiene categorías.")
+            return
+        
+        print(f"\nCategorías de '{grupo_elegido}':")
+        for indice, categoria in enumerate(categorias, start=1):
+            print(f"{indice} - {categoria}")
+        print("0 - Volver")
+        
+        seleccion = input("Elegí una categoría: ").strip()
+        
+        if seleccion == "0":
+            return
+        
+        try:
+            indice_categoria = int(seleccion) - 1
+        except ValueError:
+            print("La opción ingresada no es válida.")
+            return
+        
+        if indice_categoria < 0 or indice_categoria >= len(categorias):
+            print("La opción ingresada no es válida.")
+            return
+        
+        categoria_elegida = categorias[indice_categoria]
+        juegos = self._catalogo.filtrar_por_categoria(categoria_elegida)
+        
+        if not juegos:
+            print(f"No hay juegos en la categoría '{categoria_elegida}'.")
         else:
-            print(f"\n- Juegos en la categoría '{categoria}' ({len(juegos_filtrados)}): ")
-            for juego in juegos_filtrados:
+            print(
+                f"\nJuegos de la categoría '{categoria_elegida}' "
+                f"({len(juegos)}):"
+            )
+            for juego in juegos:
                 print(juego)
                 print()
+        
                 
     def _buscar_por_nombre(self):
         nombre = input("Ingrese el nombre del juego: ").strip()
         if not nombre:
             print("No ha ingresado ningún nombre.")
             return
-
+        
         juego_buscado = self._catalogo.buscar_por_nombre(nombre)
-
+        
         if juego_buscado is None:
             print(f"No se encontró el juego '{nombre}'.")
         else:
