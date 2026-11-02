@@ -6,7 +6,7 @@
 graph LR
     subgraph Mateydados ["Sistema Mateydados"]
         CU1(("CU01: Buscar juego por nombre"))
-        CU2(("CU02: Filtrar por categoría"))
+        CU2(("CU02: Buscar por categoría"))
         CU3(("CU03: Mostrar todos los juegos"))
         CU4(("CU04: Salir del sistema"))
     end
@@ -21,12 +21,12 @@ graph LR
 
 ### CU 1: Buscar juego por nombre
 * **Actor:** Usuario
-* **Precondición:** El catálogo de juegos (`datos/juegos.json`) fue cargado en el Árbol BST (`_arbol_nombre`) al iniciar la aplicación.
+* **Precondición:** El catálogo de juegos (`datos/juegos.json`) fue cargado en el Árbol AVL (`_arbol_nombre`) al iniciar la aplicación.
 * **Flujo Principal:**
   1. El usuario selecciona la opción `1` ("Buscar juego por nombre") en el menú de la terminal.
   2. El sistema solicita ingresar el nombre del juego de mesa.
   3. El usuario ingresa el nombre (ej. "Catan").
-  4. El sistema consulta en la clase `Catalogo`, delegando la búsqueda al árbol BST (`ArbolBST.buscar`) (sin distinguir mayúsculas ni minúsculas).
+  4. El sistema consulta en la clase `Catalogo`, delegando la búsqueda al árbol AVL (sin distinguir mayúsculas ni minúsculas).
   5. El sistema muestra en pantalla la ficha técnica detallada del juego utilizando el método `__repr__` de la clase `Juego`.
 * **Flujo Alternativo:**
   * **A1 (Texto vacío):** Si el usuario presiona ENTER sin escribir nada, el sistema informa *"No ha ingresado ningún nombre"* y regresa al menú.
@@ -34,11 +34,11 @@ graph LR
 
 ---
 
-### CU 2: Filtrar por categoría
+### CU 2: Buscar por categoría
 * **Actor:** Usuario
 * **Precondición:** El catálogo de juegos está cargado en memoria (`self._juegos`).
 * **Flujo Principal:**
-  1. El usuario selecciona la opción `2` ("Filtrar por categoría") en la terminal.
+  1. El usuario selecciona la opción `2` ("Buscar por categoría") en la terminal.
   2. El sistema muestra la lista de categorías disponibles utilizando `obtener_categorias_disponibles()`.
   3. El sistema solicita ingresar el nombre de la categoría buscada (ej. "Estrategia").
   4. El usuario ingresa la categoría.

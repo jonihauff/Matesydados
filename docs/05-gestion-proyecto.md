@@ -75,3 +75,27 @@ La integración del BST funcionó correctamente sin alterar la interfaz de la Te
 Se generó el analisis de rendimiento.
 Que se puede mejorar:
 Se corre el riesgo de degeneracion del arbol BST, se planea mejorar a un árbol AVL.
+
+### TP-4 y TP-5:
+#### Objetivos
+- Implementar un árbol AVL para buscar juegos por nombre.
+- Comparar el BST y el AVL.
+- Implementar un árbol general para representar la jerarquía de categorías de juegos de mesa.
+- Integrar la exploración de categorías con el catálogo y la terminal.
+
+#### Historias de usuario
+- Como usuario, quiero buscar un juego por nombre de manera eficiente, aunque los datos se inserten en orden.
+- Como usuario, quiero elegir un grupo y una categoría para encontrar juegos relacionados sin escribir el nombre exacto de la categoría.
+
+#### Criterios de aceptación
+- El AVL debe permitir insertar y buscar juegos mediante el nombre como clave e incluir los cuatro casos de rotación.
+- El catálogo debe utilizar el AVL para buscar juegos por nombre.
+- El árbol general debe contener la raíz, grupos y las 80 categorías del dataset.
+- El árbol debe permitir buscar nodos y realizar recorridos en amplitud, preorder y postorder.
+- El catálogo debe indicar los grupos y las categorías de cada grupo.
+
+#### Retrospectiva
+Se integró el AVL al catálogo y se comprobó desde la terminal la búsqueda de juegos existentes e inexistentes. Se comprobó la diferencia de altura entre el BST y el AVL con diez claves ordenadas.
+El árbol general se integró a la busqueda por categorías. La selección numérica facilita la búsqueda y evita errores al escribir los nombres. La prueba confirmó que el árbol contiene las 80 categorías organizadas en nueve grupos.
+Fue dificil organizar las 80 categorías en grupos que fueran representativos y tuvieran tamaños equilibrados. También se preparó un dataset con las categorías traducidas y se quitaron los registros que no tenían categoría.
+

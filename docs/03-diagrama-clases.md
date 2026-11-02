@@ -30,8 +30,15 @@ classDiagram
         +__repr__() str
     }
 
-    class ArbolBST {
-        -NodoArbol raiz
+    class NodoAVL {
+        +dato Juego
+        +izquierdo NodoAVL
+        +derecho NodoAVL
+        +altura int
+    }
+
+    class AVL {
+        -NodoAVL raiz
         +insertar(dato, clave) None
         +buscar(valor, clave) Juego
         +inorder() list
@@ -39,15 +46,40 @@ classDiagram
         +postorder() list
         +altura() int
         +esta_vacio() bool
+        +__len__() int
+    }
+
+    class NodoGeneral {
+        +dato str
+        +hijos list
+    }
+
+    class ArbolGeneral {
+        -NodoGeneral raiz
+        +insertar_raiz(dato) NodoGeneral
+        +agregar_hijo(nodo_padre, dato) NodoGeneral
+        +buscar(valor) NodoGeneral
+        +buscar_recursivo(valor, nodo) NodoGeneral
+        +amplitud() list
+        +profundidad_preorder(nodo, resultado) list
+        +profundidad_postorder(nodo, resultado) list
+        +altura(nodo) int
+        +cantidad_nodos(nodo) int
+        +listar_hijos(nodo) list
+        +obtener_niveles() list
+        +es_vacio() bool
     }
 
     class Catalogo {
         -list _juegos
-        -ArbolBST _arbol_nombre
+        -AVL _arbol_nombre
+        -ArbolGeneral _arbol_categorias
         +cargar_datos() None
         +mostrar_todos() list
         +filtrar_por_categoria(categoria_buscada) list
         +obtener_categorias_disponibles() list
+        +obtener_grupos_categorias() list
+        +obtener_categorias_de_grupo(nombre_grupo) list
         +buscar_por_nombre(nombre) Juego
         +__len__() int
     }
@@ -57,12 +89,17 @@ classDiagram
         +mostrar_menu() None
         +inicio() None
         -_mostrar_todos() None
-        -_filtrar_por_categoria() None
+        -_buscar_por_categoria() None
         -_buscar_por_nombre() None
     }
 
     Terminal --> Catalogo : usa
-    Catalogo "1" o-- "*" Juego : contiene
-    Catalogo --> ArbolBST : delega búsqueda por nombre
-    ArbolBST "1" o-- "*" Juego : ordena por clave nombre
-    ```
+    Catalogo "1" o-- "*" Juego : mantiene el catálogo
+    Catalogo "1" *-- "1" AVL : busca por nombre
+    AVL "1" *-- "0..1" NodoAVL : raíz
+    NodoAVL "1" *-- "0..2" NodoAVL : hijos
+    NodoAVL --> Juego : almacena
+    Catalogo "1" *-- "1" ArbolGeneral : organiza categorías
+    ArbolGeneral "1" *-- "0..1" NodoGeneral : raíz
+    NodoGeneral "1" *-- "0..*" NodoGeneral : hijos
+```
