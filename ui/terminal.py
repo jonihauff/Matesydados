@@ -11,7 +11,8 @@ class Terminal:
         print("1 - Buscar juego por nombre")
         print("2 - Buscar por categoria")
         print("3 - Mostrar todos los juegos")
-        print("4 - Salir")
+        print("4 - Mostrar ranking TOP 10")
+        print("5 - Salir")
         print("-"*30)
         
     def inicio(self):
@@ -26,6 +27,8 @@ class Terminal:
             elif opcion == "3":
                 self._mostrar_todos()
             elif opcion == "4":
+                self._mostrar_top_10()
+            elif opcion == "5":
                 print("Gracias por visitarnos! Hasta luego.")
                 break
             else:
@@ -125,3 +128,14 @@ class Terminal:
             print(f"\n- Juego encontrado que coincide con '{nombre}':\n")
             print(juego_buscado)
             print()
+            
+    def _mostrar_top_10(self):
+        juegos = self._catalogo.obtener_top(10)
+        
+        if not juegos:
+            print("No hay juegos cargados.")
+            return
+        
+        print("\nTop 10 juegos por rating:")
+        for indice, juego in enumerate(juegos, start=1):
+            print(f"{indice}. {juego.get_nombre()} — rating {juego.get_rating()}")    

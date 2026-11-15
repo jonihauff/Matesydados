@@ -2,6 +2,7 @@ import json
 from estructuras.avl import AVL
 from modelos.juego import Juego
 from servicios.jerarquia_categorias import crear_arbol_categorias
+from estructuras.heap import MaxHeap
 
 class Catalogo:
     
@@ -9,6 +10,7 @@ class Catalogo:
         self._juegos = []
         self._arbol_nombre = AVL()
         self._arbol_categorias = crear_arbol_categorias()
+        self._heap_juegos = MaxHeap(mayor_prioridad=mayor_prioridad_juego)
         
     def cargar_datos(self):
         with open('datos/juegos_500.json',"r",encoding="UTF-8" ) as archivo:
@@ -16,6 +18,7 @@ class Catalogo:
         
         self._juegos.clear()
         self._arbol_nombre = AVL()
+        self._heap_juegos = MaxHeap(mayor_prioridad=mayor_prioridad_juego)
         
         clave_nombre = lambda j: j.get_nombre().lower()
     
@@ -36,6 +39,7 @@ class Catalogo:
     )
             self._juegos.append(juego)
             self._arbol_nombre.insertar(juego, clave_nombre)
+            self._heap_juegos.insertar(juego)
         
         print(f"se cargaron {len(self._juegos)} juegos")
 
@@ -81,4 +85,25 @@ class Catalogo:
     def __len__(self):
         return len(self._juegos)
     
+    #Obtener juegos del heap
+    def obtener_top(self, cantidad=10):
+        if cantidad <= 0:
+            return []
+        
+        heap_copia = self._heap_juegos.copiar()
+        resultado = []
+        
+        while len(resultado) < cantidad and not heap_copia.esta_vacio():
+            resultado.append(heap_copia.extraer_maximo())
+        
+        return resultado
+
     
+#Ordena juego por rating, en caso de empate por órden alfabetico.
+def mayor_prioridad_juego(a, b):
+    if a.get_rating() != b.get_rating():
+        return a.get_rating() > b.get_rating()
+    
+    nombre_a = a.get_nombre().strip().casefold()
+    nombre_b = b.get_nombre().strip().casefold()
+    return nombre_a < nombre_b
