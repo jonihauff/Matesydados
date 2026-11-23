@@ -3,6 +3,7 @@ from estructuras.avl import AVL
 from modelos.juego import Juego
 from servicios.jerarquia_categorias import crear_arbol_categorias
 from estructuras.heap import MaxHeap
+from estructuras.grafo import GrafoLista
 
 class Catalogo:
     
@@ -11,6 +12,7 @@ class Catalogo:
         self._arbol_nombre = AVL()
         self._arbol_categorias = crear_arbol_categorias()
         self._heap_juegos = MaxHeap(mayor_prioridad=mayor_prioridad_juego)
+        self._grafo = None
         
     def cargar_datos(self):
         with open('datos/juegos_500.json',"r",encoding="UTF-8" ) as archivo:
@@ -19,6 +21,7 @@ class Catalogo:
         self._juegos.clear()
         self._arbol_nombre = AVL()
         self._heap_juegos = MaxHeap(mayor_prioridad=mayor_prioridad_juego)
+        self._grafo = self._construir_grafo()
         
         clave_nombre = lambda j: j.get_nombre().lower()
     
@@ -42,7 +45,7 @@ class Catalogo:
             self._heap_juegos.insertar(juego)
         
         print(f"se cargaron {len(self._juegos)} juegos")
-
+    
     def mostrar_todos(self):
         return list(self._juegos)
     
@@ -97,7 +100,30 @@ class Catalogo:
             resultado.append(heap_copia.extraer_maximo())
         
         return resultado
-
+    
+    def _construir_grafo(self):
+        cantidad = len(self._juegos)
+        grafo = GrafoLista(cantidad, dirigido=False)
+    
+        etiquetas = []
+        for juego in self._juegos:
+            etiquetas_juego = {
+                etiqueta.strip().casefold()
+                for etiqueta in juego.get_categorias() + juego.get_mecanicas()
+                if etiqueta and etiqueta.strip()
+            }
+            etiquetas.append(etiquetas_juego)
+        
+        for i in range(cantidad):
+            for j in range(i + 1, cantidad):
+                compartidas = etiquetas[i] & etiquetas[j]
+                
+                if compartidas:
+                    peso = 1 / len(compartidas)
+                    grafo.agregar_arista(i, j, peso)
+        
+        return grafo
+    
     
 #Ordena juego por rating, en caso de empate por órden alfabetico.
 def mayor_prioridad_juego(a, b):

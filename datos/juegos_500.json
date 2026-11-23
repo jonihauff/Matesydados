@@ -15,10 +15,10 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Campaign / Battle Card Driven",
-      "Dice Rolling",
-      "Hex-and-Counter",
-      "Press Your Luck"
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Hexágonos y fichas",
+      "Tentar la suerte"
     ],
     "modo": "competitivo",
     "rating": 6.66
@@ -38,7 +38,7 @@
       "Espías/Agentes secretos"
     ],
     "mecanicas": [
-      "Simultaneous Action Selection"
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.64
@@ -58,30 +58,29 @@
       "Temática de cine / TV / radio"
     ],
     "mecanicas": [
-      "Deck / Pool Building"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
-    "rating": 7.0
+    "rating": 7
   },
   {
-    "id": 85256,
-    "nombre": "Timeline: Inventions",
-    "año": 2010,
+    "id": 10831,
+    "nombre": "Vapor's Gambit",
+    "año": 2004,
     "min_jugadores": 2,
-    "max_jugadores": 8,
-    "edad_minima": 8,
-    "tiempo_min": 15,
-    "tiempo_max": 15,
+    "max_jugadores": 6,
+    "edad_minima": 6,
+    "tiempo_min": 20,
+    "tiempo_max": 20,
     "categorias": [
-      "Juego de cartas",
-      "Educativo",
-      "Trivia"
+      "Carreras",
+      "Ciencia ficción"
     ],
     "mecanicas": [
-      "NA"
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 6.75
+    "rating": 4.84
   },
   {
     "id": 5467,
@@ -99,7 +98,7 @@
       "Asesinato/Misterio"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.11
@@ -117,7 +116,7 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.67
@@ -138,8 +137,8 @@
       "Números"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.03
@@ -157,12 +156,11 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Dice Rolling",
-      "Hand Management",
-      "Set Collection",
-      "Simultaneous Action Selection",
-      "Variable Phase Order"
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Acciones de los jugadores",
+      "Orden variable de fases"
     ],
     "modo": "competitivo",
     "rating": 6.83
@@ -183,7 +181,7 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 7.05
@@ -205,36 +203,35 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Hand Management",
-      "Modular Board",
-      "Partnerships",
-      "Pick-up and Deliver",
-      "Take That"
+      "Movimiento",
+      "Cartas y mazos",
+      "Tablero modular",
+      "Alianzas",
+      "Recoger y entregar",
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
     "rating": 7.24
   },
   {
-    "id": 2343,
-    "nombre": "Electronic Talking Mystery Mansion",
-    "año": 1995,
+    "id": 145943,
+    "nombre": "A Duel Betwixt Us",
+    "año": 2014,
     "min_jugadores": 2,
-    "max_jugadores": 4,
-    "edad_minima": 8,
+    "max_jugadores": 2,
+    "edad_minima": 10,
     "tiempo_min": 45,
     "tiempo_max": 45,
     "categorias": [
-      "Deducción",
-      "Electrónico",
-      "Exploración",
-      "Asesinato/Misterio"
+      "Juego de cartas",
+      "Humor"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 6.28
+    "rating": 5.51
   },
   {
     "id": 8818,
@@ -251,9 +248,9 @@
       "Juego infantil"
     ],
     "mecanicas": [
-      "Pattern Building",
-      "Press Your Luck",
-      "Set Collection"
+      "Patrones",
+      "Tentar la suerte",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.04
@@ -276,8 +273,7 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.49
@@ -297,8 +293,8 @@
       "Memoria"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Memory"
+      "Dados y movimiento",
+      "Memoria"
     ],
     "modo": "competitivo",
     "rating": 5.81
@@ -320,11 +316,11 @@
       "Espías/Agentes secretos"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Co-operative Play",
-      "Modular Board",
-      "Pick-up and Deliver",
-      "Variable Player Powers"
+      "Movimiento",
+      "Juego cooperativo",
+      "Tablero modular",
+      "Recoger y entregar",
+      "Poderes variables de los jugadores"
     ],
     "modo": "cooperativo",
     "rating": 6.89
@@ -344,10 +340,10 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Pick-up and Deliver",
-      "Route/Network Building",
-      "Tile Placement"
+      "Apuestas y pujas",
+      "Recoger y entregar",
+      "Construcción de rutas",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 7.68
@@ -367,10 +363,10 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Grid Movement",
-      "Take That",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Movimiento",
+      "Interacción agresiva",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.39
@@ -389,7 +385,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 8.09
@@ -408,7 +404,7 @@
       "Político"
     ],
     "mecanicas": [
-      "Tile Placement"
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 5.75
@@ -426,8 +422,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.7
@@ -446,9 +442,9 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Press Your Luck"
+      "Control del espacio",
+      "Movimiento",
+      "Tentar la suerte"
     ],
     "modo": "competitivo",
     "rating": 6.18
@@ -467,8 +463,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 5.73
@@ -488,8 +484,8 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board"
+      "Dados y movimiento",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.47
@@ -509,8 +505,8 @@
       "Para adultos"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.13
@@ -530,8 +526,8 @@
       "Negociación"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Simultaneous Action Selection"
+      "Colección de conjuntos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.93
@@ -549,8 +545,8 @@
       "Dados"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Press Your Luck"
+      "Dados y movimiento",
+      "Tentar la suerte"
     ],
     "modo": "competitivo",
     "rating": 5.71
@@ -570,7 +566,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 5.7
@@ -589,8 +585,8 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Roll / Spin and Move",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 4.59
@@ -610,9 +606,9 @@
       "Deportes"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Hand Management",
-      "Simulation"
+      "Movimiento",
+      "Cartas y mazos",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 6.96
@@ -631,7 +627,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.95
@@ -650,8 +646,8 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Press Your Luck"
+      "Dados y movimiento",
+      "Tentar la suerte"
     ],
     "modo": "competitivo",
     "rating": 6.99
@@ -670,7 +666,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.66
@@ -692,11 +688,11 @@
       "Negociación"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Memory",
-      "Roll / Spin and Move",
-      "Set Collection",
-      "Trading"
+      "Apuestas y pujas",
+      "Memoria",
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 4.49
@@ -715,9 +711,9 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Simultaneous Action Selection",
-      "Variable Player Powers"
+      "Juego cooperativo",
+      "Acciones de los jugadores",
+      "Poderes variables de los jugadores"
     ],
     "modo": "cooperativo",
     "rating": 5.32
@@ -736,7 +732,7 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 6.95
@@ -755,7 +751,7 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Area-Impulse"
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 7.31
@@ -776,8 +772,8 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Memory",
-      "Voting"
+      "Memoria",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 7.24
@@ -799,10 +795,10 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Dice Rolling",
-      "Set Collection",
-      "Variable Player Powers"
+      "Control del espacio",
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.97
@@ -820,8 +816,8 @@
       "Dados"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Set Collection"
+      "Dados y movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.69
@@ -839,8 +835,8 @@
       "Deducción"
     ],
     "mecanicas": [
-      "Partnerships",
-      "Variable Player Powers"
+      "Alianzas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.81
@@ -859,7 +855,7 @@
       "Juego infantil"
     ],
     "mecanicas": [
-      "Press Your Luck"
+      "Tentar la suerte"
     ],
     "modo": "competitivo",
     "rating": 7.13
@@ -878,29 +874,32 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Set Collection"
+      "Dados y movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.27
   },
   {
-    "id": 457,
-    "nombre": "Jumbo Grand Prix",
-    "año": 1998,
+    "id": 42360,
+    "nombre": "Space Pirates",
+    "año": 2009,
     "min_jugadores": 2,
-    "max_jugadores": 5,
-    "edad_minima": 8,
-    "tiempo_min": 30,
-    "tiempo_max": 30,
+    "max_jugadores": 4,
+    "edad_minima": 12,
+    "tiempo_min": 60,
+    "tiempo_max": 60,
     "categorias": [
-      "Juego de cartas"
+      "Acción / Destreza",
+      "Miniaturas",
+      "Piratas",
+      "Ciencia ficción"
     ],
     "mecanicas": [
-      "NA"
+      "Recoger y entregar"
     ],
     "modo": "competitivo",
-    "rating": 5.81
+    "rating": 5.57
   },
   {
     "id": 153639,
@@ -917,9 +916,7 @@
       "Combate"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Deck / Pool Building",
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.97
@@ -938,11 +935,10 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Action / Movement Programming",
-      "Card Drafting",
-      "Dice Rolling",
-      "Hand Management",
-      "Simulation"
+      "Acciones de los jugadores",
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.13
@@ -961,10 +957,10 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Grid Movement",
-      "Modular Board",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Movimiento",
+      "Tablero modular",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.19
@@ -984,8 +980,8 @@
       "Primera Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Simultaneous Action Selection"
+      "Hexágonos y fichas",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.85
@@ -1005,8 +1001,8 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Betting/Wagering",
-      "Dice Rolling"
+      "Apuestas y pujas",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.53
@@ -1025,29 +1021,32 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Dice Rolling"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.27
   },
   {
-    "id": 866,
-    "nombre": "Lie, Cheat & Steal",
-    "año": 1971,
+    "id": 103,
+    "nombre": "Titan",
+    "año": 1980,
     "min_jugadores": 2,
     "max_jugadores": 6,
     "edad_minima": 12,
-    "tiempo_min": 90,
-    "tiempo_max": 90,
+    "tiempo_min": 30,
+    "tiempo_max": 240,
     "categorias": [
-      "Negociación",
-      "Político"
+      "Fantasía",
+      "Combate"
     ],
     "mecanicas": [
-      "NA"
+      "Dados y movimiento",
+      "Eliminación de jugadores",
+      "Despliegue secreto de unidades",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
-    "rating": 5.29
+    "rating": 6.96
   },
   {
     "id": 2453,
@@ -1063,8 +1062,8 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Area Enclosure",
-      "Tile Placement"
+      "Control del espacio",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.94
@@ -1083,7 +1082,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 5.99
@@ -1103,7 +1102,7 @@
       "Trivia"
     ],
     "mecanicas": [
-      "Point to Point Movement"
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.3
@@ -1123,7 +1122,7 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 5.8
@@ -1141,8 +1140,8 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Pattern Building",
-      "Tile Placement"
+      "Patrones",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 4.85
@@ -1161,7 +1160,7 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Trick-taking"
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 6.3
@@ -1179,8 +1178,8 @@
       "Medieval"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.18
@@ -1198,7 +1197,7 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Auction/Bidding"
+      "Apuestas y pujas"
     ],
     "modo": "competitivo",
     "rating": 5.95
@@ -1217,7 +1216,7 @@
       "Trenes"
     ],
     "mecanicas": [
-      "Worker Placement"
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 7.82
@@ -1237,29 +1236,31 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Betting/Wagering",
-      "Hand Management"
+      "Apuestas y pujas",
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.8
   },
   {
-    "id": 2582,
-    "nombre": "Catch Phrase!",
-    "año": 1994,
-    "min_jugadores": 4,
-    "max_jugadores": 16,
-    "edad_minima": 12,
-    "tiempo_min": 30,
-    "tiempo_max": 30,
+    "id": 26156,
+    "nombre": "Ausgerechnet Uppsala",
+    "año": 2006,
+    "min_jugadores": 2,
+    "max_jugadores": 6,
+    "edad_minima": 10,
+    "tiempo_min": 20,
+    "tiempo_max": 20,
     "categorias": [
-      "Juego de fiesta"
+      "Faroleo",
+      "Educativo",
+      "Trivia"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
-    "rating": 6.35
+    "rating": 6.57
   },
   {
     "id": 13780,
@@ -1275,9 +1276,9 @@
       "Político"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Card Drafting",
-      "Voting"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 6.94
@@ -1295,7 +1296,7 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Modular Board"
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.94
@@ -1319,9 +1320,9 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Dice Rolling",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.69
@@ -1339,9 +1340,8 @@
       "Náutico"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Roll / Spin and Move",
-      "Set Collection"
+      "Dados y movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 4.09
@@ -1361,8 +1361,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board"
+      "Dados y movimiento",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 5.72
@@ -1381,8 +1381,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.55
@@ -1400,9 +1400,9 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Action / Movement Programming",
-      "Grid Movement",
-      "Tile Placement"
+      "Acciones de los jugadores",
+      "Movimiento",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 5.57
@@ -1420,7 +1420,7 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Partnerships"
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 7.17
@@ -1440,31 +1440,31 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Tile Placement",
-      "Worker Placement"
+      "Colocación de losetas",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 7.38
   },
   {
-    "id": 159044,
-    "nombre": "The Hobbit: Enchanted Gold",
-    "año": 2014,
-    "min_jugadores": 2,
-    "max_jugadores": 2,
-    "edad_minima": 8,
-    "tiempo_min": 30,
-    "tiempo_max": 30,
+    "id": 5,
+    "nombre": "Acquire",
+    "año": 1964,
+    "min_jugadores": 3,
+    "max_jugadores": 6,
+    "edad_minima": 12,
+    "tiempo_min": 90,
+    "tiempo_max": 90,
     "categorias": [
-      "Juego de cartas",
-      "Fantasía",
-      "Basado en novelas"
+      "Economía"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos",
+      "Economía e intercambio",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
-    "rating": 5.74
+    "rating": 7.36
   },
   {
     "id": 204583,
@@ -1481,9 +1481,9 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Tile Placement",
-      "Variable Phase Order"
+      "Cartas y mazos",
+      "Colocación de losetas",
+      "Orden variable de fases"
     ],
     "modo": "competitivo",
     "rating": 7.47
@@ -1502,29 +1502,32 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Secret Unit Deployment"
+      "Movimiento",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 6.56
   },
   {
-    "id": 33803,
-    "nombre": "Octego",
-    "año": 2007,
-    "min_jugadores": 2,
+    "id": 5637,
+    "nombre": "APBA Pro Football",
+    "año": 1958,
+    "min_jugadores": 1,
     "max_jugadores": 2,
-    "edad_minima": 7,
-    "tiempo_min": 30,
-    "tiempo_max": 30,
+    "edad_minima": 10,
+    "tiempo_min": 120,
+    "tiempo_max": 120,
     "categorias": [
-      "Estrategia abstracta"
+      "Dados",
+      "Deportes"
     ],
     "mecanicas": [
-      "NA"
+      "Dados y movimiento",
+      "Simulación",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 6.26
+    "rating": 6.13
   },
   {
     "id": 202755,
@@ -1540,9 +1543,9 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection",
-      "Take That"
+      "Cartas y mazos",
+      "Colección de conjuntos",
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
     "rating": 7.48
@@ -1561,7 +1564,7 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Dice Rolling"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.18
@@ -1580,8 +1583,8 @@
       "Renacimiento"
     ],
     "mecanicas": [
-      "Commodity Speculation",
-      "Set Collection"
+      "Economía e intercambio",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.75
@@ -1600,7 +1603,7 @@
       "Construcción de ciudades"
     ],
     "mecanicas": [
-      "Area Control / Area Influence"
+      "Control del espacio"
     ],
     "modo": "competitivo",
     "rating": 6.97
@@ -1621,9 +1624,9 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Dice Rolling",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.23
@@ -1642,8 +1645,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Dice Rolling"
+      "Movimiento",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 7.4
@@ -1662,7 +1665,7 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.48
@@ -1687,9 +1690,9 @@
       "Temática de videojuegos"
     ],
     "mecanicas": [
-      "Deck / Pool Building",
-      "Dice Rolling",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.96
@@ -1709,10 +1712,9 @@
       "Viajes"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management",
-      "Point to Point Movement",
-      "Set Collection"
+      "Cartas y mazos",
+      "Movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 7.22
@@ -1732,11 +1734,11 @@
       "Combate"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Grid Movement",
-      "Hand Management",
-      "Pick-up and Deliver",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Movimiento",
+      "Cartas y mazos",
+      "Recoger y entregar",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.01
@@ -1759,12 +1761,12 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Auction/Bidding",
-      "Hand Management",
-      "Partnerships",
-      "Variable Player Powers"
+      "Control del espacio",
+      "Movimiento",
+      "Apuestas y pujas",
+      "Cartas y mazos",
+      "Alianzas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.61
@@ -1782,9 +1784,9 @@
       "Medieval"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Hand Management",
-      "Set Collection"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 7.68
@@ -1803,31 +1805,28 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Campaign / Battle Card Driven"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.87
   },
   {
-    "id": 17030,
-    "nombre": "Anno Domini: Lifestyle",
-    "año": 1998,
+    "id": 2499,
+    "nombre": "Equate",
+    "año": 1996,
     "min_jugadores": 2,
-    "max_jugadores": 8,
-    "edad_minima": 10,
-    "tiempo_min": 30,
-    "tiempo_max": 30,
+    "max_jugadores": 4,
+    "edad_minima": 8,
+    "tiempo_min": 120,
+    "tiempo_max": 120,
     "categorias": [
-      "Faroleo",
-      "Juego de cartas",
-      "Juego de fiesta",
-      "Trivia"
+      "Matemáticas"
     ],
     "mecanicas": [
-      "NA"
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
-    "rating": 6.85
+    "rating": 5.51
   },
   {
     "id": 129556,
@@ -1846,7 +1845,7 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Player Elimination"
+      "Eliminación de jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.41
@@ -1869,12 +1868,11 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Hand Management",
-      "Press Your Luck",
-      "Secret Unit Deployment",
-      "Simulation",
-      "Simultaneous Action Selection"
+      "Acciones de los jugadores",
+      "Cartas y mazos",
+      "Tentar la suerte",
+      "Despliegue secreto de unidades",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.3
@@ -1893,7 +1891,7 @@
       "Miniaturas"
     ],
     "mecanicas": [
-      "Action Point Allowance System"
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.63
@@ -1913,9 +1911,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Betting/Wagering",
-      "Secret Unit Deployment"
+      "Apuestas y pujas",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 6.6
@@ -1933,9 +1930,9 @@
       "Economía"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Set Collection",
-      "Worker Placement"
+      "Apuestas y pujas",
+      "Colección de conjuntos",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 6.5
@@ -1953,10 +1950,10 @@
       "Terror"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Control del espacio",
+      "Movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.84
@@ -1976,7 +1973,7 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Variable Player Powers"
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.21
@@ -1996,8 +1993,8 @@
       "Rompecabezas"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Dice Rolling"
+      "Apuestas y pujas",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.41
@@ -2016,9 +2013,9 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Rock-Paper-Scissors",
-      "Simultaneous Action Selection"
+      "Hexágonos y fichas",
+      "Piedra, papel o tijera",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.23
@@ -2038,8 +2035,8 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Voting"
+      "Cartas y mazos",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 5.33
@@ -2058,9 +2055,8 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Action / Movement Programming",
-      "Modular Board",
-      "Simultaneous Action Selection"
+      "Acciones de los jugadores",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.04
@@ -2078,8 +2074,8 @@
       "Dados"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Storytelling"
+      "Dados y movimiento",
+      "Narración"
     ],
     "modo": "competitivo",
     "rating": 4.15
@@ -2097,8 +2093,8 @@
       "Economía"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Simultaneous Action Selection"
+      "Colección de conjuntos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.4
@@ -2117,8 +2113,8 @@
       "Miniaturas"
     ],
     "mecanicas": [
-      "Campaign / Battle Card Driven",
-      "Dice Rolling"
+      "Cartas y mazos",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.47
@@ -2137,8 +2133,8 @@
       "Basado en novelas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 7.02
@@ -2156,30 +2152,31 @@
       "Prehistoria"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Tile Placement"
+      "Control del espacio",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 7.15
   },
   {
-    "id": 172932,
-    "nombre": "Flashlights & Fireflies",
-    "año": 2015,
+    "id": 137406,
+    "nombre": "Templar: The Secret Treasures",
+    "año": 2013,
     "min_jugadores": 2,
     "max_jugadores": 5,
-    "edad_minima": 6,
-    "tiempo_min": 20,
-    "tiempo_max": 20,
+    "edad_minima": 8,
+    "tiempo_min": 60,
+    "tiempo_max": 60,
     "categorias": [
-      "Faroleo",
-      "Juego infantil"
+      "Aventura",
+      "Exploración",
+      "Medieval"
     ],
     "mecanicas": [
-      "NA"
+      "Movimiento"
     ],
     "modo": "competitivo",
-    "rating": 6.25
+    "rating": 6.38
   },
   {
     "id": 54507,
@@ -2195,7 +2192,7 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.29
@@ -2215,7 +2212,7 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Press Your Luck"
+      "Tentar la suerte"
     ],
     "modo": "competitivo",
     "rating": 7.08
@@ -2234,7 +2231,7 @@
       "Acción / Destreza"
     ],
     "mecanicas": [
-      "Point to Point Movement"
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.28
@@ -2253,7 +2250,7 @@
       "Música"
     ],
     "mecanicas": [
-      "Memory"
+      "Memoria"
     ],
     "modo": "competitivo",
     "rating": 6.28
@@ -2274,10 +2271,9 @@
       "Miniaturas"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Area Movement",
-      "Dice Rolling",
-      "Roll / Spin and Move"
+      "Acciones de los jugadores",
+      "Movimiento",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.81
@@ -2296,8 +2292,8 @@
       "Exploración"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Tile Placement"
+      "Control del espacio",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.47
@@ -2316,29 +2312,35 @@
       "Economía"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.26
   },
   {
-    "id": 4297,
-    "nombre": "Dallas",
-    "año": 1980,
+    "id": 84869,
+    "nombre": "Felinia",
+    "año": 2010,
     "min_jugadores": 2,
-    "max_jugadores": 7,
-    "edad_minima": 12,
-    "tiempo_min": 120,
-    "tiempo_max": 120,
+    "max_jugadores": 4,
+    "edad_minima": 10,
+    "tiempo_min": 60,
+    "tiempo_max": 60,
     "categorias": [
-      "Temática de cine / TV / radio"
+      "Exploración",
+      "Medieval",
+      "Mitología",
+      "Construcción de territorios"
     ],
     "mecanicas": [
-      "NA"
+      "Control del espacio",
+      "Movimiento",
+      "Apuestas y pujas",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
-    "rating": 5.58
+    "rating": 6.56
   },
   {
     "id": 1981,
@@ -2354,7 +2356,7 @@
       "Economía"
     ],
     "mecanicas": [
-      "Commodity Speculation"
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 5.57
@@ -2374,9 +2376,9 @@
       "Asesinato/Misterio"
     ],
     "mecanicas": [
-      "Grid Movement",
-      "Memory",
-      "Partnerships"
+      "Movimiento",
+      "Memoria",
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 7.38
@@ -2395,7 +2397,7 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Dice Rolling"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.24
@@ -2414,7 +2416,7 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Memory"
+      "Memoria"
     ],
     "modo": "competitivo",
     "rating": 5.78
@@ -2433,8 +2435,8 @@
       "Rompecabezas"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Pattern Building"
+      "Control del espacio",
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 4.43
@@ -2453,9 +2455,9 @@
       "Trenes"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Route/Network Building",
-      "Stock Holding"
+      "Cartas y mazos",
+      "Construcción de rutas",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 7.25
@@ -2476,8 +2478,8 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Modular Board",
-      "Secret Unit Deployment"
+      "Tablero modular",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 5.55
@@ -2499,12 +2501,12 @@
       "Viajes"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Dice Rolling",
-      "Hand Management",
-      "Point to Point Movement",
-      "Role Playing",
-      "Simultaneous Action Selection"
+      "Apuestas y pujas",
+      "Dados y movimiento",
+      "Cartas y mazos",
+      "Movimiento",
+      "Interpretación de roles",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.07
@@ -2524,9 +2526,9 @@
       "Viajes"
     ],
     "mecanicas": [
-      "Roll / Spin and Move",
-      "Set Collection",
-      "Trading"
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 4.78
@@ -2544,10 +2546,10 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection",
-      "Trick-taking",
-      "Voting"
+      "Cartas y mazos",
+      "Colección de conjuntos",
+      "Juegos de bazas",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 6.34
@@ -2567,8 +2569,8 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Simultaneous Action Selection"
+      "Cartas y mazos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.05
@@ -2588,30 +2590,30 @@
       "Basado en novelas"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Deck / Pool Building"
+      "Juego cooperativo",
+      "Cartas y mazos"
     ],
     "modo": "cooperativo",
     "rating": 7.68
   },
   {
-    "id": 15505,
-    "nombre": "The Last Straw",
-    "año": 1988,
+    "id": 192351,
+    "nombre": "World Monuments",
+    "año": 2016,
     "min_jugadores": 2,
     "max_jugadores": 4,
-    "edad_minima": 5,
-    "tiempo_min": 15,
-    "tiempo_max": 15,
+    "edad_minima": 8,
+    "tiempo_min": 45,
+    "tiempo_max": 45,
     "categorias": [
-      "Acción / Destreza",
-      "Juego infantil"
+      "Renacimiento"
     ],
     "mecanicas": [
-      "NA"
+      "Colección de conjuntos",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
-    "rating": 5.03
+    "rating": 6.45
   },
   {
     "id": 176887,
@@ -2628,9 +2630,9 @@
       "Memoria"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Memory",
-      "Partnerships"
+      "Cartas y mazos",
+      "Memoria",
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 6.39
@@ -2650,13 +2652,13 @@
       "Renacimiento"
     ],
     "mecanicas": [
-      "Acting",
-      "Area Control / Area Influence",
-      "Deck / Pool Building",
-      "Dice Rolling",
-      "Trading",
-      "Voting",
-      "Worker Placement"
+      "Actuación",
+      "Control del espacio",
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Economía e intercambio",
+      "Votación",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 7.39
@@ -2677,9 +2679,8 @@
       "Agricultura"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.6
@@ -2699,8 +2700,8 @@
       "Dados"
     ],
     "mecanicas": [
-      "Roll / Spin and Move",
-      "Set Collection"
+      "Dados y movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.33
@@ -2723,10 +2724,10 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Modular Board",
-      "Point to Point Movement",
-      "Simulation"
+      "Cartas y mazos",
+      "Tablero modular",
+      "Movimiento",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 5.24
@@ -2747,7 +2748,7 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.41
@@ -2767,33 +2768,32 @@
       "Laberinto"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Modular Board",
-      "Pick-up and Deliver"
+      "Cartas y mazos",
+      "Tablero modular",
+      "Recoger y entregar"
     ],
     "modo": "competitivo",
     "rating": 6.04
   },
   {
-    "id": 59223,
-    "nombre": "Diego Drachenzahn",
-    "año": 2009,
-    "min_jugadores": 2,
-    "max_jugadores": 4,
-    "edad_minima": 5,
-    "tiempo_min": 15,
-    "tiempo_max": 15,
+    "id": 118950,
+    "nombre": "Mafia",
+    "año": 2012,
+    "min_jugadores": 3,
+    "max_jugadores": 8,
+    "edad_minima": 14,
+    "tiempo_min": 30,
+    "tiempo_max": 30,
     "categorias": [
-      "Acción / Destreza",
-      "Faroleo",
-      "Juego infantil",
-      "Fantasía"
+      "Mafia"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos",
+      "Alianzas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 6.09
+    "rating": 6.45
   },
   {
     "id": 6566,
@@ -2813,9 +2813,9 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Paper-and-Pencil",
-      "Voting"
+      "Dados y movimiento",
+      "Papel y lápiz",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 5.64
@@ -2836,9 +2836,9 @@
       "Combate"
     ],
     "mecanicas": [
-      "Memory",
-      "Player Elimination",
-      "Press Your Luck"
+      "Memoria",
+      "Eliminación de jugadores",
+      "Tentar la suerte"
     ],
     "modo": "competitivo",
     "rating": 7.12
@@ -2857,9 +2857,9 @@
       "Viajes"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Point to Point Movement",
-      "Secret Unit Deployment"
+      "Cartas y mazos",
+      "Movimiento",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 5.99
@@ -2878,8 +2878,8 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Modular Board"
+      "Hexágonos y fichas",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 7.27
@@ -2899,7 +2899,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Simulation"
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 6.64
@@ -2918,9 +2918,9 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Acciones de los jugadores",
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.34
@@ -2939,9 +2939,9 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Hand Management",
-      "Simultaneous Action Selection"
+      "Apuestas y pujas",
+      "Cartas y mazos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.05
@@ -2961,9 +2961,8 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Co-operative Play",
-      "Deck / Pool Building"
+      "Cartas y mazos",
+      "Juego cooperativo"
     ],
     "modo": "cooperativo",
     "rating": 7.41
@@ -2985,13 +2984,13 @@
       "Laberinto"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Grid Movement",
-      "Hand Management",
-      "Modular Board",
-      "Secret Unit Deployment",
-      "Tile Placement",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Movimiento",
+      "Cartas y mazos",
+      "Tablero modular",
+      "Despliegue secreto de unidades",
+      "Colocación de losetas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.85
@@ -3010,7 +3009,7 @@
       "Para adultos"
     ],
     "mecanicas": [
-      "Set Collection"
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.42
@@ -3029,8 +3028,8 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Pattern Building",
-      "Tile Placement"
+      "Patrones",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.69
@@ -3050,11 +3049,11 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Dice Rolling",
-      "Grid Movement",
-      "Modular Board",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Dados y movimiento",
+      "Movimiento",
+      "Tablero modular",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.5
@@ -3073,7 +3072,7 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Pattern Building"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 6.2
@@ -3096,9 +3095,9 @@
       "Mitología"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Set Collection",
-      "Worker Placement"
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 7.7
@@ -3117,7 +3116,7 @@
       "Mafia"
     ],
     "mecanicas": [
-      "Tile Placement"
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 5.87
@@ -3138,10 +3137,10 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Card Drafting",
-      "Commodity Speculation",
-      "Pick-up and Deliver"
+      "Movimiento",
+      "Cartas y mazos",
+      "Economía e intercambio",
+      "Recoger y entregar"
     ],
     "modo": "competitivo",
     "rating": 6.12
@@ -3161,7 +3160,7 @@
       "Renacimiento"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.7
@@ -3180,7 +3179,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 5.81
@@ -3199,13 +3198,13 @@
       "Zombis"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Dice Rolling",
-      "Grid Movement",
-      "Hand Management",
-      "Modular Board",
-      "Take That",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Dados y movimiento",
+      "Movimiento",
+      "Cartas y mazos",
+      "Tablero modular",
+      "Interacción agresiva",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.71
@@ -3224,12 +3223,11 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Deck / Pool Building",
-      "Hand Management",
-      "Partnerships",
-      "Point to Point Movement",
-      "Rock-Paper-Scissors",
-      "Set Collection"
+      "Cartas y mazos",
+      "Alianzas",
+      "Movimiento",
+      "Piedra, papel o tijera",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 7.09
@@ -3248,7 +3246,7 @@
       "Para adultos"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.75
@@ -3268,7 +3266,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Deck / Pool Building"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 8.07
@@ -3287,11 +3285,11 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Pick-up and Deliver",
-      "Set Collection",
-      "Tile Placement",
-      "Worker Placement"
+      "Acciones de los jugadores",
+      "Recoger y entregar",
+      "Colección de conjuntos",
+      "Colocación de losetas",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 7.32
@@ -3312,7 +3310,7 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.93
@@ -3334,10 +3332,10 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Campaign / Battle Card Driven",
-      "Dice Rolling"
+      "Control del espacio",
+      "Movimiento",
+      "Cartas y mazos",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.34
@@ -3356,8 +3354,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.3
@@ -3378,10 +3376,9 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Modular Board",
-      "Pattern Building",
-      "Pattern Recognition",
-      "Route/Network Building"
+      "Tablero modular",
+      "Patrones",
+      "Construcción de rutas"
     ],
     "modo": "competitivo",
     "rating": 5.67
@@ -3400,7 +3397,7 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.3
@@ -3421,7 +3418,7 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 6.79
@@ -3441,10 +3438,9 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Area-Impulse",
-      "Dice Rolling",
-      "Secret Unit Deployment"
+      "Movimiento",
+      "Dados y movimiento",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 7.02
@@ -3462,9 +3458,9 @@
       "Viajes"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Area Control / Area Influence",
-      "Hand Management"
+      "Acciones de los jugadores",
+      "Control del espacio",
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.99
@@ -3483,7 +3479,7 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Route/Network Building"
+      "Construcción de rutas"
     ],
     "modo": "competitivo",
     "rating": 6.92
@@ -3501,8 +3497,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.11
@@ -3522,7 +3518,7 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Dice Rolling"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.24
@@ -3542,7 +3538,7 @@
       "Rompecabezas"
     ],
     "mecanicas": [
-      "Tile Placement"
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 5.27
@@ -3561,29 +3557,29 @@
       "Rompecabezas"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Trading"
+      "Colección de conjuntos",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 6.51
   },
   {
-    "id": 2794,
-    "nombre": "Spinball",
-    "año": 2001,
+    "id": 688,
+    "nombre": "Manchu",
+    "año": 1988,
     "min_jugadores": 2,
     "max_jugadores": 2,
-    "edad_minima": 0,
-    "tiempo_min": 20,
-    "tiempo_max": 20,
+    "edad_minima": 12,
+    "tiempo_min": 240,
+    "tiempo_max": 240,
     "categorias": [
-      "Acción / Destreza"
+      "Wargame"
     ],
     "mecanicas": [
-      "NA"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
-    "rating": 6.9
+    "rating": 5.78
   },
   {
     "id": 33208,
@@ -3599,8 +3595,8 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Paper-and-Pencil",
-      "Voting"
+      "Papel y lápiz",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 5.99
@@ -3619,9 +3615,9 @@
       "Economía"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Press Your Luck",
-      "Set Collection"
+      "Dados y movimiento",
+      "Tentar la suerte",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.7
@@ -3639,7 +3635,7 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.61
@@ -3660,8 +3656,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Modular Board",
-      "Roll / Spin and Move"
+      "Tablero modular",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.17
@@ -3679,7 +3675,7 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Trick-taking"
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 5.34
@@ -3698,8 +3694,8 @@
       "Números"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Take That"
+      "Cartas y mazos",
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
     "rating": 6.57
@@ -3719,8 +3715,8 @@
       "Basado en novelas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Trick-taking"
+      "Cartas y mazos",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 6.17
@@ -3739,7 +3735,7 @@
       "Temática de videojuegos"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.75
@@ -3758,10 +3754,10 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Card Drafting",
-      "Dice Rolling",
-      "Variable Player Powers"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.48
@@ -3780,8 +3776,8 @@
       "Dados"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Set Collection"
+      "Dados y movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.08
@@ -3800,7 +3796,7 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Modular Board"
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.15
@@ -3819,8 +3815,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.59
@@ -3842,9 +3838,9 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Acting",
-      "Card Drafting",
-      "Role Playing"
+      "Actuación",
+      "Cartas y mazos",
+      "Interpretación de roles"
     ],
     "modo": "competitivo",
     "rating": 7.81
@@ -3866,11 +3862,11 @@
       "Combate"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Partnerships",
-      "Player Elimination",
-      "Take That",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Alianzas",
+      "Eliminación de jugadores",
+      "Interacción agresiva",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.56
@@ -3890,28 +3886,31 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.53
   },
   {
-    "id": 136609,
-    "nombre": "Jenga BOOM",
-    "año": 2012,
-    "min_jugadores": 1,
-    "max_jugadores": 4,
-    "edad_minima": 6,
-    "tiempo_min": 10,
-    "tiempo_max": 10,
+    "id": 6215,
+    "nombre": "StarSoldier: Tactical Warfare in the 25th Century",
+    "año": 1977,
+    "min_jugadores": 2,
+    "max_jugadores": 3,
+    "edad_minima": 12,
+    "tiempo_min": 120,
+    "tiempo_max": 120,
     "categorias": [
-      "Acción / Destreza"
+      "Ciencia ficción",
+      "Wargame"
     ],
     "mecanicas": [
-      "NA"
+      "Acciones de los jugadores",
+      "Hexágonos y fichas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 4.75
+    "rating": 6.22
   },
   {
     "id": 94734,
@@ -3928,9 +3927,8 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board",
-      "Roll / Spin and Move"
+      "Dados y movimiento",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.02
@@ -3950,32 +3948,35 @@
       "Combate"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Grid Movement",
-      "Hand Management",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Movimiento",
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.61
   },
   {
-    "id": 342,
-    "nombre": "Hong Kong",
-    "año": 1999,
+    "id": 148740,
+    "nombre": "Scotland Yard Master",
+    "año": 2013,
     "min_jugadores": 2,
-    "max_jugadores": 2,
-    "edad_minima": 8,
-    "tiempo_min": 15,
-    "tiempo_max": 15,
+    "max_jugadores": 6,
+    "edad_minima": 10,
+    "tiempo_min": 45,
+    "tiempo_max": 45,
     "categorias": [
-      "Estrategia abstracta",
-      "Construcción de ciudades"
+      "Deducción",
+      "Viajes"
     ],
     "mecanicas": [
-      "NA"
+      "Juego cooperativo",
+      "Alianzas",
+      "Movimiento",
+      "Despliegue secreto de unidades"
     ],
-    "modo": "competitivo",
-    "rating": 5.77
+    "modo": "cooperativo",
+    "rating": 6.56
   },
   {
     "id": 19358,
@@ -3991,9 +3992,9 @@
       "Construcción de ciudades"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hand Management",
-      "Simultaneous Action Selection"
+      "Dados y movimiento",
+      "Cartas y mazos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.17
@@ -4014,9 +4015,9 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Auction/Bidding",
-      "Variable Player Powers"
+      "Control del espacio",
+      "Apuestas y pujas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.83
@@ -4035,7 +4036,7 @@
       "Exploración"
     ],
     "mecanicas": [
-      "Action / Movement Programming"
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.18
@@ -4054,7 +4055,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.09
@@ -4074,8 +4075,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Secret Unit Deployment"
+      "Dados y movimiento",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 7.08
@@ -4094,8 +4095,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Dice Rolling"
+      "Acciones de los jugadores",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 7.85
@@ -4117,7 +4118,7 @@
       "Temática de videojuegos"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.14
@@ -4136,7 +4137,7 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.26
@@ -4156,9 +4157,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Dice Rolling",
-      "Point to Point Movement"
+      "Movimiento",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.98
@@ -4177,10 +4177,9 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Action / Movement Programming",
-      "Campaign / Battle Card Driven",
-      "Secret Unit Deployment",
-      "Simultaneous Action Selection"
+      "Acciones de los jugadores",
+      "Cartas y mazos",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 5.43
@@ -4199,7 +4198,7 @@
       "Juego infantil"
     ],
     "mecanicas": [
-      "Line Drawing"
+      "Trazado de líneas"
     ],
     "modo": "competitivo",
     "rating": 6.88
@@ -4219,10 +4218,10 @@
       "Medieval"
     ],
     "mecanicas": [
-      "Betting/Wagering",
-      "Secret Unit Deployment",
-      "Set Collection",
-      "Simultaneous Action Selection"
+      "Apuestas y pujas",
+      "Despliegue secreto de unidades",
+      "Colección de conjuntos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.67
@@ -4240,7 +4239,7 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Co-operative Play"
+      "Juego cooperativo"
     ],
     "modo": "cooperativo",
     "rating": 7.18
@@ -4258,9 +4257,9 @@
       "Antigüedad"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Card Drafting",
-      "Worker Placement"
+      "Apuestas y pujas",
+      "Cartas y mazos",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 6.24
@@ -4280,7 +4279,7 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.54
@@ -4299,13 +4298,12 @@
       "Político"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Area Control / Area Influence",
-      "Co-operative Play",
-      "Grid Movement",
-      "Modular Board",
-      "Point to Point Movement",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Control del espacio",
+      "Juego cooperativo",
+      "Movimiento",
+      "Tablero modular",
+      "Poderes variables de los jugadores"
     ],
     "modo": "cooperativo",
     "rating": 7.71
@@ -4324,9 +4322,8 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board",
-      "Roll / Spin and Move"
+      "Dados y movimiento",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.05
@@ -4347,9 +4344,9 @@
       "Basado en novelas"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Deck / Pool Building",
-      "Dice Rolling"
+      "Juego cooperativo",
+      "Cartas y mazos",
+      "Dados y movimiento"
     ],
     "modo": "cooperativo",
     "rating": 5.73
@@ -4370,10 +4367,9 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management",
-      "Variable Phase Order",
-      "Worker Placement"
+      "Cartas y mazos",
+      "Orden variable de fases",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 7.92
@@ -4395,8 +4391,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Point to Point Movement"
+      "Dados y movimiento",
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.75
@@ -4416,11 +4412,11 @@
       "Miniaturas"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Dice Rolling",
-      "Hand Management",
-      "Variable Player Powers"
+      "Control del espacio",
+      "Movimiento",
+      "Dados y movimiento",
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.09
@@ -4439,9 +4435,8 @@
       "Industria / Manufactura"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Crayon Rail System",
-      "Route/Network Building"
+      "Apuestas y pujas",
+      "Construcción de rutas"
     ],
     "modo": "competitivo",
     "rating": 7.57
@@ -4459,7 +4454,7 @@
       "Prehistoria"
     ],
     "mecanicas": [
-      "Tile Placement"
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.67
@@ -4478,7 +4473,7 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Dice Rolling"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.4
@@ -4498,9 +4493,8 @@
       "Trenes"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Roll / Spin and Move",
-      "Tile Placement"
+      "Dados y movimiento",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.5
@@ -4520,8 +4514,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.7
@@ -4539,7 +4533,7 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Pattern Building"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 7.32
@@ -4558,9 +4552,9 @@
       "Zombis"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Auction/Bidding",
-      "Hand Management"
+      "Acciones de los jugadores",
+      "Apuestas y pujas",
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.85
@@ -4583,14 +4577,14 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter",
-      "Modular Board",
-      "Tile Placement",
-      "Trading",
-      "Variable Phase Order",
-      "Variable Player Powers",
-      "Voting"
+      "Dados y movimiento",
+      "Hexágonos y fichas",
+      "Tablero modular",
+      "Colocación de losetas",
+      "Economía e intercambio",
+      "Orden variable de fases",
+      "Poderes variables de los jugadores",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 6.94
@@ -4608,8 +4602,8 @@
       "Animales"
     ],
     "mecanicas": [
-      "Modular Board",
-      "Partnerships"
+      "Tablero modular",
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 6.25
@@ -4628,11 +4622,11 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Hand Management",
-      "Memory",
-      "Simultaneous Action Selection",
-      "Trading"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Memoria",
+      "Acciones de los jugadores",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 6.79
@@ -4650,7 +4644,7 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Set Collection"
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.55
@@ -4669,7 +4663,7 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.65
@@ -4692,13 +4686,13 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Auction/Bidding",
-      "Hand Management",
-      "Memory",
-      "Player Elimination",
-      "Simultaneous Action Selection",
-      "Variable Player Powers"
+      "Movimiento",
+      "Apuestas y pujas",
+      "Cartas y mazos",
+      "Memoria",
+      "Eliminación de jugadores",
+      "Acciones de los jugadores",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.29
@@ -4718,7 +4712,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.02
@@ -4740,8 +4734,8 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Pattern Recognition",
-      "Player Elimination"
+      "Patrones",
+      "Eliminación de jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.81
@@ -4760,8 +4754,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.54
@@ -4782,9 +4776,9 @@
       "Combate"
     ],
     "mecanicas": [
-      "Deck / Pool Building",
-      "Dice Rolling",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.45
@@ -4806,10 +4800,10 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board",
-      "Secret Unit Deployment",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Tablero modular",
+      "Despliegue secreto de unidades",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.99
@@ -4828,8 +4822,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Simulation"
+      "Hexágonos y fichas",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.15
@@ -4847,9 +4841,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management",
-      "Variable Phase Order"
+      "Cartas y mazos",
+      "Orden variable de fases"
     ],
     "modo": "competitivo",
     "rating": 6.61
@@ -4868,8 +4861,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Betting/Wagering",
-      "Variable Player Powers"
+      "Apuestas y pujas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.83
@@ -4890,12 +4883,12 @@
       "Rompecabezas"
     ],
     "mecanicas": [
-      "Area Enclosure",
-      "Dice Rolling",
-      "Pattern Building",
-      "Press Your Luck",
-      "Tile Placement",
-      "Worker Placement"
+      "Control del espacio",
+      "Dados y movimiento",
+      "Patrones",
+      "Tentar la suerte",
+      "Colocación de losetas",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 8.3
@@ -4913,9 +4906,9 @@
       "Dados"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Press Your Luck",
-      "Set Collection"
+      "Dados y movimiento",
+      "Tentar la suerte",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.92
@@ -4933,7 +4926,7 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Tile Placement"
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 5.72
@@ -4953,7 +4946,7 @@
       "Zombis"
     ],
     "mecanicas": [
-      "Dice Rolling"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.35
@@ -4974,8 +4967,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Secret Unit Deployment"
+      "Acciones de los jugadores",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 6.58
@@ -4993,8 +4986,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Trick-taking"
+      "Cartas y mazos",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 6.51
@@ -5012,7 +5005,7 @@
       "Faroleo"
     ],
     "mecanicas": [
-      "Take That"
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
     "rating": 5.49
@@ -5033,8 +5026,8 @@
       "Primera Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hand Management"
+      "Dados y movimiento",
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.42
@@ -5052,7 +5045,7 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Modular Board"
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.72
@@ -5073,8 +5066,8 @@
       "Zombis"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Point to Point Movement"
+      "Cartas y mazos",
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.98
@@ -5093,9 +5086,8 @@
       "Asesinato/Misterio"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management",
-      "Point to Point Movement"
+      "Cartas y mazos",
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.15
@@ -5117,9 +5109,9 @@
       "Temática de cine / TV / radio"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Colección de conjuntos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.84
@@ -5138,30 +5130,29 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.4
   },
   {
-    "id": 5854,
-    "nombre": "Azuma",
-    "año": 1992,
-    "min_jugadores": 3,
+    "id": 71569,
+    "nombre": "Kuni Tori!",
+    "año": 2010,
+    "min_jugadores": 2,
     "max_jugadores": 6,
-    "edad_minima": 8,
-    "tiempo_min": 30,
-    "tiempo_max": 30,
+    "edad_minima": 12,
+    "tiempo_min": 45,
+    "tiempo_max": 45,
     "categorias": [
-      "Acción / Destreza",
-      "Tiempo real"
+      "Juego de cartas"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
-    "rating": 5.97
+    "rating": 6.96
   },
   {
     "id": 193738,
@@ -5176,10 +5167,9 @@
       "Lejano Oeste estadounidense"
     ],
     "mecanicas": [
-      "Deck / Pool Building",
-      "Hand Management",
-      "Point to Point Movement",
-      "Tile Placement"
+      "Cartas y mazos",
+      "Movimiento",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 8.27
@@ -5198,7 +5188,7 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.88
@@ -5217,9 +5207,9 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Chit-Pull System",
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Sistema de extracción de fichas",
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.66
@@ -5241,29 +5231,34 @@
       "Temática de videojuegos"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.5
   },
   {
-    "id": 2838,
-    "nombre": "Loaded Questions",
-    "año": 1997,
-    "min_jugadores": 3,
-    "max_jugadores": 6,
-    "edad_minima": 13,
+    "id": 37461,
+    "nombre": "Kraków 1325 AD",
+    "año": 2008,
+    "min_jugadores": 4,
+    "max_jugadores": 4,
+    "edad_minima": 0,
     "tiempo_min": 45,
     "tiempo_max": 45,
     "categorias": [
-      "Juego de fiesta"
+      "Juego de cartas",
+      "Humor",
+      "Medieval"
     ],
     "mecanicas": [
-      "NA"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Alianzas",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
-    "rating": 5.95
+    "rating": 6.45
   },
   {
     "id": 1262,
@@ -5279,9 +5274,9 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Partnerships"
+      "Control del espacio",
+      "Movimiento",
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 6.65
@@ -5300,9 +5295,9 @@
       "Antigüedad"
     ],
     "mecanicas": [
-      "Modular Board",
-      "Set Collection",
-      "Time Track"
+      "Tablero modular",
+      "Colección de conjuntos",
+      "Marcador de tiempo"
     ],
     "modo": "competitivo",
     "rating": 6.13
@@ -5324,12 +5319,12 @@
       "Miniaturas"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Grid Movement",
-      "Modular Board",
-      "Partnerships",
-      "Role Playing",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Movimiento",
+      "Tablero modular",
+      "Alianzas",
+      "Interpretación de roles",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.35
@@ -5348,7 +5343,7 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.62
@@ -5368,7 +5363,7 @@
       "Renacimiento"
     ],
     "mecanicas": [
-      "Voting"
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 6.38
@@ -5388,50 +5383,51 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 6.65
   },
   {
-    "id": 24782,
-    "nombre": "The Amazing Race: DVD Board Game",
-    "año": 2006,
+    "id": 8495,
+    "nombre": "De Bellis Multitudinis",
+    "año": 1993,
     "min_jugadores": 2,
-    "max_jugadores": 4,
-    "edad_minima": 13,
-    "tiempo_min": 0,
-    "tiempo_max": 0,
+    "max_jugadores": 2,
+    "edad_minima": 12,
+    "tiempo_min": 180,
+    "tiempo_max": 180,
     "categorias": [
-      "Temática de cine / TV / radio",
-      "Viajes"
+      "Antigüedad",
+      "Libro",
+      "Medieval",
+      "Miniaturas",
+      "Wargame"
     ],
     "mecanicas": [
-      "NA"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
-    "rating": 4.27
+    "rating": 6.53
   },
   {
-    "id": 6368,
-    "nombre": "King Arthur",
-    "año": 2003,
+    "id": 18333,
+    "nombre": "Nature Fluxx",
+    "año": 2005,
     "min_jugadores": 2,
-    "max_jugadores": 4,
+    "max_jugadores": 6,
     "edad_minima": 8,
-    "tiempo_min": 90,
-    "tiempo_max": 90,
+    "tiempo_min": 15,
+    "tiempo_max": 15,
     "categorias": [
-      "Aventura",
-      "Exploración",
-      "Fantasía",
-      "Mitología"
+      "Juego de cartas"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
-    "rating": 5.2
+    "rating": 5.85
   },
   {
     "id": 20441,
@@ -5448,10 +5444,10 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Chit-Pull System",
-      "Simulation",
-      "Variable Phase Order"
+      "Acciones de los jugadores",
+      "Sistema de extracción de fichas",
+      "Simulación",
+      "Orden variable de fases"
     ],
     "modo": "competitivo",
     "rating": 7.1
@@ -5470,7 +5466,7 @@
       "Trivia"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.75
@@ -5488,8 +5484,8 @@
       "Medieval"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Area Movement"
+      "Acciones de los jugadores",
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 7.3
@@ -5508,10 +5504,10 @@
       "Exploración"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Dice Rolling",
-      "Tile Placement",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Dados y movimiento",
+      "Colocación de losetas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.76
@@ -5530,7 +5526,7 @@
       "Deducción"
     ],
     "mecanicas": [
-      "Auction/Bidding"
+      "Apuestas y pujas"
     ],
     "modo": "competitivo",
     "rating": 6.53
@@ -5548,8 +5544,8 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Modular Board",
-      "Pattern Building"
+      "Tablero modular",
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 7.31
@@ -5568,9 +5564,9 @@
       "Terror"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Co-operative Play",
-      "Player Elimination"
+      "Movimiento",
+      "Juego cooperativo",
+      "Eliminación de jugadores"
     ],
     "modo": "cooperativo",
     "rating": 6.07
@@ -5589,7 +5585,7 @@
       "Mafia"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.27
@@ -5608,8 +5604,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Secret Unit Deployment"
+      "Dados y movimiento",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 6.83
@@ -5629,29 +5625,31 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.53
   },
   {
-    "id": 7065,
-    "nombre": "Pusher",
-    "año": 1993,
+    "id": 194232,
+    "nombre": "Rick and Morty: Total Rickall Card Game",
+    "año": 2016,
     "min_jugadores": 2,
-    "max_jugadores": 3,
-    "edad_minima": 7,
-    "tiempo_min": 20,
-    "tiempo_max": 20,
+    "max_jugadores": 5,
+    "edad_minima": 15,
+    "tiempo_min": 30,
+    "tiempo_max": 0,
     "categorias": [
-      "Estrategia abstracta",
-      "Acción / Destreza"
+      "Juego de cartas",
+      "Deducción",
+      "Humor",
+      "Temática de cine / TV / radio"
     ],
     "mecanicas": [
-      "NA"
+      "Juego cooperativo"
     ],
-    "modo": "competitivo",
-    "rating": 6.03
+    "modo": "cooperativo",
+    "rating": 6.68
   },
   {
     "id": 5825,
@@ -5667,8 +5665,8 @@
       "Viajes"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Route/Network Building"
+      "Control del espacio",
+      "Construcción de rutas"
     ],
     "modo": "competitivo",
     "rating": 6.21
@@ -5687,7 +5685,7 @@
       "Economía"
     ],
     "mecanicas": [
-      "Auction/Bidding"
+      "Apuestas y pujas"
     ],
     "modo": "competitivo",
     "rating": 7.21
@@ -5705,7 +5703,7 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Point to Point Movement"
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.66
@@ -5724,9 +5722,7 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Deck / Pool Building",
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 7.76
@@ -5744,8 +5740,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Trick-taking"
+      "Cartas y mazos",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 6.15
@@ -5764,32 +5760,36 @@
       "Náutico"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Pick-up and Deliver",
-      "Time Track",
-      "Worker Placement"
+      "Apuestas y pujas",
+      "Recoger y entregar",
+      "Marcador de tiempo",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 6.54
   },
   {
-    "id": 3527,
-    "nombre": "Iliad",
-    "año": 1979,
+    "id": 125395,
+    "nombre": "Zombies!!! The Card Game",
+    "año": 2012,
     "min_jugadores": 2,
-    "max_jugadores": 2,
-    "edad_minima": 12,
-    "tiempo_min": 240,
-    "tiempo_max": 240,
+    "max_jugadores": 6,
+    "edad_minima": 13,
+    "tiempo_min": 60,
+    "tiempo_max": 60,
     "categorias": [
-      "Antigüedad",
-      "Wargame"
+      "Juego de cartas",
+      "Combate",
+      "Terror",
+      "Temática de cine / TV / radio",
+      "Zombis"
     ],
     "mecanicas": [
-      "NA"
+      "Dados y movimiento",
+      "Narración"
     ],
     "modo": "competitivo",
-    "rating": 5.71
+    "rating": 5.09
   },
   {
     "id": 116954,
@@ -5804,9 +5804,9 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Point to Point Movement",
-      "Route/Network Building",
-      "Tile Placement"
+      "Movimiento",
+      "Construcción de rutas",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.86
@@ -5827,9 +5827,9 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Time Track",
-      "Trading"
+      "Movimiento",
+      "Marcador de tiempo",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 6.24
@@ -5848,8 +5848,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Campaign / Battle Card Driven",
-      "Point to Point Movement"
+      "Cartas y mazos",
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.51
@@ -5869,7 +5869,7 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.56
@@ -5888,32 +5888,32 @@
       "Industria / Manufactura"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Route/Network Building"
+      "Apuestas y pujas",
+      "Construcción de rutas"
     ],
     "modo": "competitivo",
     "rating": 7.94
   },
   {
-    "id": 1636,
-    "nombre": "The Quest of the Philosopher's Stone",
-    "año": 1986,
+    "id": 39045,
+    "nombre": "Heroes Of The World",
+    "año": 2008,
     "min_jugadores": 2,
-    "max_jugadores": 8,
-    "edad_minima": 8,
-    "tiempo_min": 120,
-    "tiempo_max": 120,
+    "max_jugadores": 5,
+    "edad_minima": 10,
+    "tiempo_min": 75,
+    "tiempo_max": 75,
     "categorias": [
-      "Deducción",
-      "Fantasía",
-      "Medieval",
-      "Rompecabezas"
+      "Civilización",
+      "Político",
+      "Construcción de territorios"
     ],
     "mecanicas": [
-      "NA"
+      "Control del espacio",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
-    "rating": 5.42
+    "rating": 6.33
   },
   {
     "id": 466,
@@ -5929,9 +5929,9 @@
       "Espías/Agentes secretos"
     ],
     "mecanicas": [
-      "Partnerships",
-      "Point to Point Movement",
-      "Roll / Spin and Move"
+      "Alianzas",
+      "Movimiento",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.6
@@ -5950,8 +5950,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Trick-taking"
+      "Cartas y mazos",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 6.47
@@ -5970,8 +5970,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Simulation"
+      "Hexágonos y fichas",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 6.15
@@ -5991,7 +5991,7 @@
       "Memoria"
     ],
     "mecanicas": [
-      "Memory"
+      "Memoria"
     ],
     "modo": "competitivo",
     "rating": 5.59
@@ -6012,7 +6012,7 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Variable Player Powers"
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.04
@@ -6034,11 +6034,11 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Hex-and-Counter",
-      "Modular Board",
-      "Secret Unit Deployment"
+      "Control del espacio",
+      "Movimiento",
+      "Hexágonos y fichas",
+      "Tablero modular",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 6.54
@@ -6056,8 +6056,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Pattern Building",
-      "Set Collection"
+      "Patrones",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 4.97
@@ -6076,7 +6076,7 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Modular Board"
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.39
@@ -6096,10 +6096,10 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Route/Network Building",
-      "Stock Holding",
-      "Tile Placement"
+      "Apuestas y pujas",
+      "Construcción de rutas",
+      "Economía e intercambio",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.82
@@ -6118,32 +6118,33 @@
       "Construcción de ciudades"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Card Drafting",
-      "Set Collection"
+      "Control del espacio",
+      "Movimiento",
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 7.25
   },
   {
-    "id": 23263,
-    "nombre": "Clue DVD Game",
-    "año": 2006,
-    "min_jugadores": 3,
-    "max_jugadores": 5,
-    "edad_minima": 10,
+    "id": 2725,
+    "nombre": "Star Wars: Escape From The Death Star",
+    "año": 1990,
+    "min_jugadores": 1,
+    "max_jugadores": 4,
+    "edad_minima": 12,
     "tiempo_min": 60,
     "tiempo_max": 60,
     "categorias": [
-      "Deducción",
-      "Asesinato/Misterio"
+      "Temática de cine / TV / radio",
+      "Ciencia ficción",
+      "Wargame"
     ],
     "mecanicas": [
-      "NA"
+      "Juego cooperativo"
     ],
-    "modo": "competitivo",
-    "rating": 6.22
+    "modo": "cooperativo",
+    "rating": 5.62
   },
   {
     "id": 17075,
@@ -6159,11 +6160,10 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management",
-      "Modular Board",
-      "Set Collection",
-      "Tile Placement"
+      "Cartas y mazos",
+      "Tablero modular",
+      "Colección de conjuntos",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 5.9
@@ -6183,9 +6183,9 @@
       "Memoria"
     ],
     "mecanicas": [
-      "Memory",
-      "Player Elimination",
-      "Roll / Spin and Move"
+      "Memoria",
+      "Eliminación de jugadores",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.91
@@ -6204,12 +6204,11 @@
       "Temática de cine / TV / radio"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Campaign / Battle Card Driven",
-      "Dice Rolling",
-      "Grid Movement",
-      "Point to Point Movement",
-      "Variable Player Powers"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.15
@@ -6227,7 +6226,7 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Take That"
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
     "rating": 5.74
@@ -6247,7 +6246,7 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.96
@@ -6266,8 +6265,8 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.24
@@ -6287,8 +6286,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Variable Player Powers"
+      "Hexágonos y fichas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.63
@@ -6306,28 +6305,31 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Grid Movement"
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.41
   },
   {
-    "id": 835,
-    "nombre": "Election",
-    "año": 1972,
-    "min_jugadores": 3,
-    "max_jugadores": 6,
+    "id": 4346,
+    "nombre": "Cedar Mountain: Prelude to Bull Run, August 9, 1862",
+    "año": 1981,
+    "min_jugadores": 2,
+    "max_jugadores": 2,
     "edad_minima": 12,
-    "tiempo_min": 120,
-    "tiempo_max": 120,
+    "tiempo_min": 360,
+    "tiempo_max": 360,
     "categorias": [
-      "Político"
+      "Guerra Civil Estadounidense",
+      "Wargame"
     ],
     "mecanicas": [
-      "NA"
+      "Sistema de extracción de fichas",
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
-    "rating": 6.84
+    "rating": 6.93
   },
   {
     "id": 3749,
@@ -6342,8 +6344,8 @@
       "Deportes"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Simultaneous Action Selection"
+      "Cartas y mazos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.8
@@ -6361,8 +6363,8 @@
       "Deportes"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Simulation"
+      "Dados y movimiento",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 5.6
@@ -6381,7 +6383,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.72
@@ -6401,9 +6403,9 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Modular Board"
+      "Control del espacio",
+      "Movimiento",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 7.1
@@ -6422,32 +6424,33 @@
       "Humor"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hand Management",
-      "Pick-up and Deliver"
+      "Dados y movimiento",
+      "Cartas y mazos",
+      "Recoger y entregar"
     ],
     "modo": "competitivo",
     "rating": 5.63
   },
   {
-    "id": 2503,
-    "nombre": "Godsfire",
-    "año": 1976,
+    "id": 988,
+    "nombre": "Zapp Zerapp",
+    "año": 2000,
     "min_jugadores": 2,
-    "max_jugadores": 15,
-    "edad_minima": 12,
-    "tiempo_min": 300,
-    "tiempo_max": 300,
+    "max_jugadores": 4,
+    "edad_minima": 7,
+    "tiempo_min": 30,
+    "tiempo_max": 30,
     "categorias": [
-      "Político",
-      "Ciencia ficción",
-      "Wargame"
+      "Acción / Destreza",
+      "Juego infantil",
+      "Carreras",
+      "Tiempo real"
     ],
     "mecanicas": [
-      "NA"
+      "Movimiento"
     ],
     "modo": "competitivo",
-    "rating": 5.67
+    "rating": 6.12
   },
   {
     "id": 1986,
@@ -6464,9 +6467,9 @@
       "Espías/Agentes secretos"
     ],
     "mecanicas": [
-      "Player Elimination",
-      "Roll / Spin and Move",
-      "Set Collection"
+      "Eliminación de jugadores",
+      "Dados y movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.74
@@ -6486,7 +6489,7 @@
       "Juego infantil"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.35
@@ -6504,7 +6507,7 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Route/Network Building"
+      "Construcción de rutas"
     ],
     "modo": "competitivo",
     "rating": 5.81
@@ -6523,7 +6526,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.75
@@ -6542,8 +6545,8 @@
       "Político"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Area Control / Area Influence"
+      "Acciones de los jugadores",
+      "Control del espacio"
     ],
     "modo": "competitivo",
     "rating": 6.44
@@ -6563,10 +6566,9 @@
       "Industria / Manufactura"
     ],
     "mecanicas": [
-      "Roll / Spin and Move",
-      "Set Collection",
-      "Stock Holding",
-      "Trading"
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 6.05
@@ -6586,7 +6588,7 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Acting"
+      "Actuación"
     ],
     "modo": "competitivo",
     "rating": 6.43
@@ -6605,11 +6607,10 @@
       "Combate"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Campaign / Battle Card Driven",
-      "Grid Movement",
-      "Hand Management",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Cartas y mazos",
+      "Movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.74
@@ -6630,9 +6631,9 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Simulation",
-      "Variable Player Powers"
+      "Movimiento",
+      "Simulación",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.71
@@ -6651,28 +6652,33 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Area Movement"
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.31
   },
   {
-    "id": 165551,
-    "nombre": "Moustache Smash",
-    "año": 2014,
-    "min_jugadores": 3,
-    "max_jugadores": 6,
-    "edad_minima": 7,
-    "tiempo_min": 20,
-    "tiempo_max": 20,
+    "id": 101721,
+    "nombre": "Mage Wars Arena",
+    "año": 2012,
+    "min_jugadores": 2,
+    "max_jugadores": 2,
+    "edad_minima": 13,
+    "tiempo_min": 90,
+    "tiempo_max": 90,
     "categorias": [
-      "Acción / Destreza"
+      "Juego de cartas",
+      "Fantasía",
+      "Combate"
     ],
     "mecanicas": [
-      "NA"
+      "Dados y movimiento",
+      "Movimiento",
+      "Acciones de los jugadores",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 5.5
+    "rating": 7.82
   },
   {
     "id": 1403,
@@ -6687,8 +6693,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Simultaneous Action Selection"
+      "Cartas y mazos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.81
@@ -6707,7 +6713,7 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.68
@@ -6729,8 +6735,7 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.33
@@ -6751,10 +6756,9 @@
       "Combate"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Role Playing",
-      "Roll / Spin and Move",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Interpretación de roles",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.35
@@ -6774,7 +6778,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.66
@@ -6794,7 +6798,7 @@
       "Juego infantil"
     ],
     "mecanicas": [
-      "Pattern Building"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 4.83
@@ -6813,8 +6817,8 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Dice Rolling"
+      "Movimiento",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.96
@@ -6833,30 +6837,31 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.03
   },
   {
-    "id": 3836,
-    "nombre": "Legend of the Burning Sands",
-    "año": 1998,
+    "id": 17008,
+    "nombre": "Award Show",
+    "año": 2005,
     "min_jugadores": 2,
     "max_jugadores": 6,
     "edad_minima": 10,
-    "tiempo_min": 60,
-    "tiempo_max": 60,
+    "tiempo_min": 45,
+    "tiempo_max": 45,
     "categorias": [
-      "Juego de cartas",
-      "Componentes coleccionables",
-      "Fantasía"
+      "Juego de cartas"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos",
+      "Despliegue secreto de unidades",
+      "Orden variable de fases",
+      "Votación"
     ],
     "modo": "competitivo",
-    "rating": 7.02
+    "rating": 4.19
   },
   {
     "id": 55911,
@@ -6872,8 +6877,8 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Worker Placement"
+      "Control del espacio",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 6.1
@@ -6893,9 +6898,9 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Hand Management",
-      "Set Collection"
+      "Apuestas y pujas",
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.26
@@ -6915,8 +6920,8 @@
       "Negociación"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Deck / Pool Building"
+      "Control del espacio",
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 7.75
@@ -6934,8 +6939,8 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Modular Board",
-      "Point to Point Movement"
+      "Tablero modular",
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.02
@@ -6955,28 +6960,33 @@
       "Economía"
     ],
     "mecanicas": [
-      "Auction/Bidding"
+      "Apuestas y pujas"
     ],
     "modo": "competitivo",
     "rating": 7.32
   },
   {
-    "id": 102631,
-    "nombre": "Tinco",
-    "año": 2011,
-    "min_jugadores": 3,
-    "max_jugadores": 6,
-    "edad_minima": 10,
+    "id": 32743,
+    "nombre": "Black Stories Mystery Edition",
+    "año": 2007,
+    "min_jugadores": 2,
+    "max_jugadores": 15,
+    "edad_minima": 12,
     "tiempo_min": 20,
     "tiempo_max": 20,
     "categorias": [
+      "Deducción",
+      "Fantasía",
+      "Terror",
+      "Humor",
+      "Asesinato/Misterio",
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "NA"
+      "Narración"
     ],
     "modo": "competitivo",
-    "rating": 6.37
+    "rating": 5.55
   },
   {
     "id": 102181,
@@ -6993,28 +7003,39 @@
       "Asesinato/Misterio"
     ],
     "mecanicas": [
-      "Memory"
+      "Memoria"
     ],
     "modo": "competitivo",
     "rating": 6.37
   },
   {
-    "id": 20722,
-    "nombre": "Alfredo's Food Fight",
-    "año": 2005,
-    "min_jugadores": 2,
-    "max_jugadores": 4,
-    "edad_minima": 5,
-    "tiempo_min": 20,
-    "tiempo_max": 20,
+    "id": 89342,
+    "nombre": "Tomorrow",
+    "año": 2013,
+    "min_jugadores": 4,
+    "max_jugadores": 6,
+    "edad_minima": 18,
+    "tiempo_min": 90,
+    "tiempo_max": 90,
     "categorias": [
-      "Acción / Destreza"
+      "Faroleo",
+      "Medioambiental",
+      "Guerra moderna",
+      "Negociación",
+      "Político",
+      "Ciencia ficción",
+      "Wargame"
     ],
     "mecanicas": [
-      "NA"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Alianzas",
+      "Acciones de los jugadores",
+      "Interacción agresiva",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 5.78
+    "rating": 6.38
   },
   {
     "id": 142079,
@@ -7034,10 +7055,10 @@
       "Exploración espacial"
     ],
     "mecanicas": [
-      "Action / Movement Programming",
-      "Dice Rolling",
-      "Grid Movement",
-      "Partnerships"
+      "Acciones de los jugadores",
+      "Dados y movimiento",
+      "Movimiento",
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 6.93
@@ -7057,7 +7078,7 @@
       "Deportes"
     ],
     "mecanicas": [
-      "Partnerships"
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 6.34
@@ -7078,8 +7099,8 @@
       "Zombis"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Dice Rolling"
+      "Control del espacio",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.68
@@ -7099,12 +7120,12 @@
       "Combate"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Dice Rolling",
-      "Grid Movement",
-      "Hand Management",
-      "Take That",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Dados y movimiento",
+      "Movimiento",
+      "Cartas y mazos",
+      "Interacción agresiva",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.34
@@ -7125,9 +7146,9 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Pick-up and Deliver",
-      "Point to Point Movement",
-      "Route/Network Building"
+      "Recoger y entregar",
+      "Movimiento",
+      "Construcción de rutas"
     ],
     "modo": "competitivo",
     "rating": 7.43
@@ -7146,8 +7167,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Simulation"
+      "Hexágonos y fichas",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 8.45
@@ -7167,8 +7188,8 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Pattern Recognition"
+      "Dados y movimiento",
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 5.89
@@ -7187,7 +7208,7 @@
       "Viajes"
     ],
     "mecanicas": [
-      "Set Collection"
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.47
@@ -7206,9 +7227,9 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter",
-      "Simulation"
+      "Dados y movimiento",
+      "Hexágonos y fichas",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.73
@@ -7228,10 +7249,10 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Modular Board",
-      "Route/Network Building"
+      "Control del espacio",
+      "Movimiento",
+      "Tablero modular",
+      "Construcción de rutas"
     ],
     "modo": "competitivo",
     "rating": 5.71
@@ -7252,8 +7273,8 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Player Elimination"
+      "Dados y movimiento",
+      "Eliminación de jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.23
@@ -7272,11 +7293,11 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter",
-      "Modular Board",
-      "Secret Unit Deployment",
-      "Simulation"
+      "Dados y movimiento",
+      "Hexágonos y fichas",
+      "Tablero modular",
+      "Despliegue secreto de unidades",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.68
@@ -7295,9 +7316,8 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Action / Movement Programming",
-      "Hex-and-Counter",
-      "Simultaneous Action Selection"
+      "Acciones de los jugadores",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.9
@@ -7317,10 +7337,10 @@
       "Político"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Trading",
-      "Variable Phase Order",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Economía e intercambio",
+      "Orden variable de fases",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.27
@@ -7340,9 +7360,9 @@
       "Temática de videojuegos"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Deck / Pool Building",
-      "Rock-Paper-Scissors"
+      "Apuestas y pujas",
+      "Cartas y mazos",
+      "Piedra, papel o tijera"
     ],
     "modo": "competitivo",
     "rating": 6.77
@@ -7361,8 +7381,8 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Grid Movement",
-      "Roll / Spin and Move"
+      "Movimiento",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.65
@@ -7382,9 +7402,9 @@
       "Terror"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Co-operative Play",
-      "Modular Board"
+      "Movimiento",
+      "Juego cooperativo",
+      "Tablero modular"
     ],
     "modo": "cooperativo",
     "rating": 5.43
@@ -7405,12 +7425,11 @@
       "Zombis"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hand Management",
-      "Modular Board",
-      "Partnerships",
-      "Roll / Spin and Move",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Cartas y mazos",
+      "Tablero modular",
+      "Alianzas",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.69
@@ -7430,12 +7449,11 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Deck / Pool Building",
-      "Hand Management",
-      "Secret Unit Deployment",
-      "Set Collection",
-      "Variable Player Powers"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Despliegue secreto de unidades",
+      "Colección de conjuntos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.18
@@ -7453,70 +7471,74 @@
       "Negociación"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hand Management",
-      "Modular Board",
-      "Route/Network Building",
-      "Trading"
+      "Dados y movimiento",
+      "Cartas y mazos",
+      "Tablero modular",
+      "Construcción de rutas",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 7.27
   },
   {
-    "id": 3389,
-    "nombre": "Ivanhoë",
-    "año": 2002,
-    "min_jugadores": 3,
-    "max_jugadores": 6,
-    "edad_minima": 7,
-    "tiempo_min": 45,
-    "tiempo_max": 45,
+    "id": 57803,
+    "nombre": "Forlorn: Hope",
+    "año": 2010,
+    "min_jugadores": 1,
+    "max_jugadores": 2,
+    "edad_minima": 13,
+    "tiempo_min": 40,
+    "tiempo_max": 40,
     "categorias": [
-      "Medieval"
+      "Combate",
+      "Ciencia ficción",
+      "Wargame"
     ],
     "mecanicas": [
-      "NA"
+      "Acciones de los jugadores",
+      "Movimiento"
     ],
     "modo": "competitivo",
-    "rating": 4.44
+    "rating": 6.93
   },
   {
-    "id": 10386,
-    "nombre": "SiegeStones",
-    "año": 2004,
+    "id": 6481,
+    "nombre": "Phoenix",
+    "año": 2003,
     "min_jugadores": 2,
-    "max_jugadores": 4,
-    "edad_minima": 7,
+    "max_jugadores": 2,
+    "edad_minima": 12,
     "tiempo_min": 20,
     "tiempo_max": 20,
     "categorias": [
       "Estrategia abstracta",
-      "Sistema de juego"
+      "Juego de cartas"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos",
+      "Patrones"
     ],
     "modo": "competitivo",
-    "rating": 5.79
+    "rating": 6.42
   },
   {
-    "id": 95710,
-    "nombre": "Bop It!",
-    "año": 1996,
-    "min_jugadores": 1,
-    "max_jugadores": 99,
-    "edad_minima": 8,
-    "tiempo_min": 0,
-    "tiempo_max": 0,
+    "id": 11760,
+    "nombre": "Knuckling Knights",
+    "año": 2004,
+    "min_jugadores": 2,
+    "max_jugadores": 4,
+    "edad_minima": 4,
+    "tiempo_min": 10,
+    "tiempo_max": 10,
     "categorias": [
-      "Acción / Destreza",
-      "Electrónico"
+      "Juego infantil",
+      "Medieval"
     ],
     "mecanicas": [
-      "NA"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
-    "rating": 5.2
+    "rating": 5.67
   },
   {
     "id": 17133,
@@ -7533,12 +7555,12 @@
       "Temática de videojuegos"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Auction/Bidding",
-      "Card Drafting",
-      "Pick-up and Deliver",
-      "Route/Network Building",
-      "Tile Placement"
+      "Acciones de los jugadores",
+      "Apuestas y pujas",
+      "Cartas y mazos",
+      "Recoger y entregar",
+      "Construcción de rutas",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 7.71
@@ -7557,8 +7579,8 @@
       "Primera Guerra Mundial"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Tile Placement"
+      "Control del espacio",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 7.58
@@ -7577,7 +7599,7 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.13
@@ -7597,8 +7619,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Simulation"
+      "Hexágonos y fichas",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.1
@@ -7616,31 +7638,35 @@
       "Animales"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Tile Placement"
+      "Colección de conjuntos",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.7
   },
   {
-    "id": 19765,
-    "nombre": "Deduce or Die",
-    "año": 2003,
-    "min_jugadores": 3,
+    "id": 177698,
+    "nombre": "Karnivore Koala",
+    "año": 2015,
+    "min_jugadores": 2,
     "max_jugadores": 6,
-    "edad_minima": 9,
-    "tiempo_min": 90,
-    "tiempo_max": 90,
+    "edad_minima": 12,
+    "tiempo_min": 20,
+    "tiempo_max": 30,
     "categorias": [
+      "Animales",
       "Juego de cartas",
-      "Deducción",
-      "Imprimir y jugar"
+      "Dados",
+      "Humor"
     ],
     "mecanicas": [
-      "NA"
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Interacción agresiva",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 7.23
+    "rating": 5.92
   },
   {
     "id": 1961,
@@ -7655,8 +7681,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Player Elimination"
+      "Cartas y mazos",
+      "Eliminación de jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.41
@@ -7677,9 +7703,9 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Dice Rolling",
-      "Pick-up and Deliver"
+      "Juego cooperativo",
+      "Dados y movimiento",
+      "Recoger y entregar"
     ],
     "modo": "cooperativo",
     "rating": 6.93
@@ -7699,8 +7725,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Dice Rolling"
+      "Movimiento",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 6.84
@@ -7718,34 +7744,38 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Dice Rolling",
-      "Simultaneous Action Selection",
-      "Variable Player Powers"
+      "Juego cooperativo",
+      "Dados y movimiento",
+      "Acciones de los jugadores",
+      "Poderes variables de los jugadores"
     ],
     "modo": "cooperativo",
     "rating": 6.86
   },
   {
-    "id": 20117,
-    "nombre": "Chaos Arena",
-    "año": 1992,
+    "id": 205398,
+    "nombre": "Citadels (2016 edition)",
+    "año": 2016,
     "min_jugadores": 2,
-    "max_jugadores": 2,
+    "max_jugadores": 8,
     "edad_minima": 10,
     "tiempo_min": 30,
-    "tiempo_max": 30,
+    "tiempo_max": 60,
     "categorias": [
-      "Dados",
+      "Faroleo",
+      "Juego de cartas",
+      "Construcción de ciudades",
       "Fantasía",
-      "Humor",
-      "Wargame"
+      "Medieval"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos",
+      "Colección de conjuntos",
+      "Orden variable de fases",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 6.86
+    "rating": 7.76
   },
   {
     "id": 191300,
@@ -7760,9 +7790,9 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Press Your Luck",
-      "Set Collection"
+      "Cartas y mazos",
+      "Tentar la suerte",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 7.31
@@ -7782,10 +7812,9 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Point to Point Movement",
-      "Roll / Spin and Move",
-      "Tile Placement"
+      "Dados y movimiento",
+      "Movimiento",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 5.63
@@ -7805,7 +7834,7 @@
       "Temática de cine / TV / radio"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.61
@@ -7825,7 +7854,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.76
@@ -7843,8 +7872,8 @@
       "Música"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Trading"
+      "Colección de conjuntos",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 5.83
@@ -7863,8 +7892,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.89
@@ -7885,7 +7914,7 @@
       "Trivia"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.89
@@ -7906,10 +7935,10 @@
       "Exploración espacial"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Hand Management",
-      "Memory",
-      "Trading"
+      "Juego cooperativo",
+      "Cartas y mazos",
+      "Memoria",
+      "Economía e intercambio"
     ],
     "modo": "cooperativo",
     "rating": 6.78
@@ -7929,7 +7958,7 @@
       "Educativo"
     ],
     "mecanicas": [
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 7.47
@@ -7948,7 +7977,7 @@
       "Juego infantil"
     ],
     "mecanicas": [
-      "Dice Rolling"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.1
@@ -7967,30 +7996,34 @@
       "Combate"
     ],
     "mecanicas": [
-      "Grid Movement",
-      "Hand Management",
-      "Variable Player Powers"
+      "Movimiento",
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.01
   },
   {
-    "id": 39564,
-    "nombre": "ego",
-    "año": 2007,
+    "id": 481,
+    "nombre": "Carolus Magnus",
+    "año": 2000,
     "min_jugadores": 2,
-    "max_jugadores": 6,
-    "edad_minima": 0,
-    "tiempo_min": 45,
-    "tiempo_max": 45,
+    "max_jugadores": 4,
+    "edad_minima": 12,
+    "tiempo_min": 60,
+    "tiempo_max": 60,
     "categorias": [
-      "Juego de fiesta"
+      "Medieval"
     ],
     "mecanicas": [
-      "NA"
+      "Control del espacio",
+      "Dados y movimiento",
+      "Cartas y mazos",
+      "Tablero modular",
+      "Alianzas"
     ],
     "modo": "competitivo",
-    "rating": 5.45
+    "rating": 6.85
   },
   {
     "id": 5772,
@@ -8005,8 +8038,8 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Partnerships",
-      "Voting"
+      "Alianzas",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 6.51
@@ -8025,12 +8058,12 @@
       "Exploración"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Modular Board",
-      "Point to Point Movement"
+      "Cartas y mazos",
+      "Tablero modular",
+      "Movimiento"
     ],
     "modo": "competitivo",
-    "rating": 5.0
+    "rating": 5
   },
   {
     "id": 91873,
@@ -8047,10 +8080,10 @@
       "Medieval"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Auction/Bidding",
-      "Pattern Building",
-      "Tile Placement"
+      "Control del espacio",
+      "Apuestas y pujas",
+      "Patrones",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 7.19
@@ -8069,8 +8102,8 @@
       "Terror"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.58
@@ -8090,8 +8123,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter"
+      "Dados y movimiento",
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.63
@@ -8111,9 +8144,8 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Dice Rolling",
-      "Roll / Spin and Move"
+      "Cartas y mazos",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.08
@@ -8131,8 +8163,8 @@
       "Economía"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Pick-up and Deliver"
+      "Acciones de los jugadores",
+      "Recoger y entregar"
     ],
     "modo": "competitivo",
     "rating": 6.45
@@ -8151,7 +8183,7 @@
       "Juego infantil"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.58
@@ -8171,10 +8203,9 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Route/Network Building",
-      "Stock Holding",
-      "Tile Placement",
-      "Trading"
+      "Construcción de rutas",
+      "Economía e intercambio",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.88
@@ -8193,8 +8224,8 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Simulation"
+      "Cartas y mazos",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 6.07
@@ -8213,8 +8244,7 @@
       "Economía"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 7.42
@@ -8234,8 +8264,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Simulation"
+      "Hexágonos y fichas",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 6.49
@@ -8253,9 +8283,9 @@
       "Exploración"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection",
-      "Tile Placement"
+      "Cartas y mazos",
+      "Colección de conjuntos",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.33
@@ -8275,8 +8305,8 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Campaign / Battle Card Driven",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.56
@@ -8295,8 +8325,8 @@
       "Combate"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Player Elimination"
+      "Dados y movimiento",
+      "Eliminación de jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.89
@@ -8315,8 +8345,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Campaign / Battle Card Driven"
+      "Movimiento",
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.58
@@ -8335,9 +8365,9 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Paper-and-Pencil",
-      "Simultaneous Action Selection",
-      "Voting"
+      "Papel y lápiz",
+      "Acciones de los jugadores",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 6.67
@@ -8356,10 +8386,10 @@
       "Economía"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Set Collection",
-      "Variable Phase Order",
-      "Worker Placement"
+      "Control del espacio",
+      "Colección de conjuntos",
+      "Orden variable de fases",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 6.73
@@ -8380,7 +8410,7 @@
       "Basado en novelas"
     ],
     "mecanicas": [
-      "Pattern Building"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 3.64
@@ -8399,8 +8429,8 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Trading"
+      "Colección de conjuntos",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 5.82
@@ -8419,8 +8449,8 @@
       "Náutico"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Trick-taking"
+      "Colección de conjuntos",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 5.35
@@ -8440,9 +8470,9 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Dice Rolling",
-      "Pattern Building"
+      "Juego cooperativo",
+      "Dados y movimiento",
+      "Patrones"
     ],
     "modo": "cooperativo",
     "rating": 7.24
@@ -8466,10 +8496,10 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Acting",
-      "Player Elimination",
-      "Simultaneous Action Selection",
-      "Variable Player Powers"
+      "Actuación",
+      "Eliminación de jugadores",
+      "Acciones de los jugadores",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.4
@@ -8489,9 +8519,9 @@
       "Viajes"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Point to Point Movement",
-      "Set Collection"
+      "Cartas y mazos",
+      "Movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.27
@@ -8511,8 +8541,8 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Dice Rolling"
+      "Movimiento",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.75
@@ -8531,7 +8561,7 @@
       "Primera Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 7.47
@@ -8550,7 +8580,7 @@
       "Industria / Manufactura"
     ],
     "mecanicas": [
-      "Auction/Bidding"
+      "Apuestas y pujas"
     ],
     "modo": "competitivo",
     "rating": 7.48
@@ -8568,10 +8598,9 @@
       "Economía"
     ],
     "mecanicas": [
-      "Commodity Speculation",
-      "Dice Rolling",
-      "Simultaneous Action Selection",
-      "Stock Holding"
+      "Economía e intercambio",
+      "Dados y movimiento",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.58
@@ -8592,9 +8621,8 @@
       "Exploración espacial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Roll / Spin and Move",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.92
@@ -8612,8 +8640,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Trick-taking"
+      "Apuestas y pujas",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 6.35
@@ -8632,8 +8660,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter",
-      "Simulation"
+      "Hexágonos y fichas",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 6.52
@@ -8654,8 +8682,8 @@
       "Matemáticas"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Set Collection"
+      "Dados y movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.73
@@ -8674,9 +8702,9 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection",
-      "Take That"
+      "Cartas y mazos",
+      "Colección de conjuntos",
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
     "rating": 6.21
@@ -8698,9 +8726,9 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Campaign / Battle Card Driven",
-      "Dice Rolling"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.7
@@ -8718,9 +8746,8 @@
       "Humor"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board",
-      "Roll / Spin and Move"
+      "Dados y movimiento",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.51
@@ -8739,9 +8766,8 @@
       "Trenes"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Stock Holding",
-      "Trading"
+      "Dados y movimiento",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 5.98
@@ -8762,9 +8788,8 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Campaign / Battle Card Driven",
-      "Card Drafting",
-      "Dice Rolling"
+      "Cartas y mazos",
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 7.55
@@ -8782,8 +8807,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.36
@@ -8807,7 +8832,7 @@
       "Espías/Agentes secretos"
     ],
     "mecanicas": [
-      "Co-operative Play"
+      "Juego cooperativo"
     ],
     "modo": "cooperativo",
     "rating": 5.46
@@ -8828,7 +8853,7 @@
       "Zombis"
     ],
     "mecanicas": [
-      "Action Point Allowance System"
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.24
@@ -8847,28 +8872,33 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.26
   },
   {
-    "id": 17773,
-    "nombre": "CrackeD ICE",
-    "año": 2002,
+    "id": 66198,
+    "nombre": "U-Build Monopoly",
+    "año": 2010,
     "min_jugadores": 2,
-    "max_jugadores": 5,
-    "edad_minima": 0,
-    "tiempo_min": 1,
-    "tiempo_max": 1,
+    "max_jugadores": 6,
+    "edad_minima": 8,
+    "tiempo_min": 30,
+    "tiempo_max": 30,
     "categorias": [
-      "Acción / Destreza"
+      "Economía",
+      "Negociación"
     ],
     "mecanicas": [
-      "NA"
+      "Apuestas y pujas",
+      "Tablero modular",
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
-    "rating": 5.52
+    "rating": 5.3
   },
   {
     "id": 2268,
@@ -8885,9 +8915,9 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board",
-      "Role Playing"
+      "Dados y movimiento",
+      "Tablero modular",
+      "Interpretación de roles"
     ],
     "modo": "competitivo",
     "rating": 6.48
@@ -8908,9 +8938,9 @@
       "Miniaturas"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Grid Movement",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.3
@@ -8930,10 +8960,10 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Dice Rolling",
-      "Partnerships"
+      "Control del espacio",
+      "Movimiento",
+      "Dados y movimiento",
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 5.61
@@ -8952,10 +8982,9 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Co-operative Play",
-      "Hand Management",
-      "Simultaneous Action Selection"
+      "Acciones de los jugadores",
+      "Juego cooperativo",
+      "Cartas y mazos"
     ],
     "modo": "cooperativo",
     "rating": 6.89
@@ -8976,7 +9005,7 @@
       "Negociación"
     ],
     "mecanicas": [
-      "Secret Unit Deployment"
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 6.19
@@ -8994,9 +9023,9 @@
       "Medieval"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Auction/Bidding",
-      "Worker Placement"
+      "Control del espacio",
+      "Apuestas y pujas",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 6.75
@@ -9016,9 +9045,8 @@
       "Combate"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 7.26
@@ -9038,9 +9066,9 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Tablero modular",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.41
@@ -9061,30 +9089,34 @@
       "Rompecabezas"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Variable Player Powers"
+      "Movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.88
   },
   {
-    "id": 35054,
-    "nombre": "Meepile",
-    "año": 2008,
+    "id": 135649,
+    "nombre": "Tales & Games: The Three Little Pigs",
+    "año": 2013,
     "min_jugadores": 2,
     "max_jugadores": 5,
-    "edad_minima": 0,
-    "tiempo_min": 15,
-    "tiempo_max": 15,
+    "edad_minima": 7,
+    "tiempo_min": 20,
+    "tiempo_max": 20,
     "categorias": [
-      "Acción / Destreza",
-      "Juego de fiesta"
+      "Animales",
+      "Juego infantil",
+      "Dados",
+      "Basado en novelas"
     ],
     "mecanicas": [
-      "NA"
+      "Dados y movimiento",
+      "Tentar la suerte",
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
-    "rating": 6.34
+    "rating": 6.56
   },
   {
     "id": 1035,
@@ -9100,10 +9132,10 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Hex-and-Counter",
-      "Modular Board",
-      "Simulation"
+      "Dados y movimiento",
+      "Hexágonos y fichas",
+      "Tablero modular",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.47
@@ -9121,7 +9153,7 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Card Drafting"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.78
@@ -9142,8 +9174,8 @@
       "Dados"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Set Collection"
+      "Dados y movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.88
@@ -9161,10 +9193,8 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Deck / Pool Building",
-      "Hand Management",
-      "Set Collection"
+      "Cartas y mazos",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 7.59
@@ -9185,9 +9215,8 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Campaign / Battle Card Driven",
-      "Hand Management",
-      "Modular Board"
+      "Cartas y mazos",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 5.86
@@ -9205,8 +9234,8 @@
       "Humor"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Set Collection"
+      "Apuestas y pujas",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.84
@@ -9226,9 +9255,8 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Modular Board",
-      "Roll / Spin and Move"
+      "Dados y movimiento",
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.61
@@ -9246,7 +9274,7 @@
       "Dados"
     ],
     "mecanicas": [
-      "Press Your Luck"
+      "Tentar la suerte"
     ],
     "modo": "competitivo",
     "rating": 5.96
@@ -9265,51 +9293,62 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Hand Management",
-      "Modular Board",
-      "Set Collection",
-      "Tile Placement"
+      "Juego cooperativo",
+      "Cartas y mazos",
+      "Tablero modular",
+      "Colección de conjuntos",
+      "Colocación de losetas"
     ],
     "modo": "cooperativo",
     "rating": 6.79
   },
   {
-    "id": 40759,
-    "nombre": "Cartagena: Die Meuterei",
-    "año": 2009,
+    "id": 138614,
+    "nombre": "Relic Expedition",
+    "año": 2014,
     "min_jugadores": 2,
     "max_jugadores": 4,
     "edad_minima": 10,
-    "tiempo_min": 45,
-    "tiempo_max": 45,
+    "tiempo_min": 30,
+    "tiempo_max": 60,
     "categorias": [
       "Aventura",
-      "Piratas"
+      "Exploración"
     ],
     "mecanicas": [
-      "NA"
+      "Acciones de los jugadores",
+      "Cartas y mazos",
+      "Tablero modular",
+      "Colección de conjuntos",
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
-    "rating": 6.43
+    "rating": 6.77
   },
   {
-    "id": 23284,
-    "nombre": "Wayfinder",
-    "año": 2006,
-    "min_jugadores": 1,
+    "id": 183880,
+    "nombre": "Risk: Star Wars Edition",
+    "año": 2015,
+    "min_jugadores": 2,
     "max_jugadores": 4,
-    "edad_minima": 0,
-    "tiempo_min": 45,
+    "edad_minima": 10,
+    "tiempo_min": 30,
     "tiempo_max": 45,
     "categorias": [
-      "Estrategia abstracta"
+      "Dados",
+      "Temática de cine / TV / radio",
+      "Ciencia ficción",
+      "Wargame"
     ],
     "mecanicas": [
-      "NA"
+      "Control del espacio",
+      "Movimiento",
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 6.7
+    "rating": 7.23
   },
   {
     "id": 158851,
@@ -9326,7 +9365,7 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Dice Rolling"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.86
@@ -9350,10 +9389,10 @@
       "Basado en novelas"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Dice Rolling",
-      "Modular Board",
-      "Variable Player Powers"
+      "Juego cooperativo",
+      "Dados y movimiento",
+      "Tablero modular",
+      "Poderes variables de los jugadores"
     ],
     "modo": "cooperativo",
     "rating": 7.02
@@ -9372,11 +9411,10 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Partnerships",
-      "Pattern Building",
-      "Pattern Recognition",
-      "Simultaneous Action Selection"
+      "Juego cooperativo",
+      "Alianzas",
+      "Patrones",
+      "Acciones de los jugadores"
     ],
     "modo": "cooperativo",
     "rating": 5.32
@@ -9398,9 +9436,9 @@
       "Imprimir y jugar"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Hand Management",
-      "Trick-taking"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 6.84
@@ -9419,7 +9457,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 6.28
@@ -9440,9 +9478,9 @@
       "Político"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement",
-      "Stock Holding"
+      "Control del espacio",
+      "Movimiento",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 7.64
@@ -9463,7 +9501,7 @@
       "Deportes"
     ],
     "mecanicas": [
-      "Partnerships"
+      "Alianzas"
     ],
     "modo": "competitivo",
     "rating": 5.95
@@ -9481,8 +9519,8 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Pattern Building",
-      "Point to Point Movement"
+      "Patrones",
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.59
@@ -9501,8 +9539,8 @@
       "Carreras"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Tile Placement"
+      "Dados y movimiento",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.17
@@ -9522,7 +9560,7 @@
       "Miniaturas"
     ],
     "mecanicas": [
-      "Grid Movement"
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.97
@@ -9541,28 +9579,32 @@
       "Espías/Agentes secretos"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 5.4
   },
   {
-    "id": 479,
-    "nombre": "Bambuti",
-    "año": 1999,
+    "id": 129609,
+    "nombre": "Foreclosed!",
+    "año": 2012,
     "min_jugadores": 2,
-    "max_jugadores": 2,
-    "edad_minima": 12,
-    "tiempo_min": 20,
-    "tiempo_max": 20,
+    "max_jugadores": 6,
+    "edad_minima": 13,
+    "tiempo_min": 30,
+    "tiempo_max": 30,
     "categorias": [
-      "Juego de cartas"
+      "Juego de cartas",
+      "Economía",
+      "Negociación"
     ],
     "mecanicas": [
-      "NA"
+      "Apuestas y pujas",
+      "Colección de conjuntos",
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
-    "rating": 5.93
+    "rating": 5.86
   },
   {
     "id": 90855,
@@ -9578,7 +9620,7 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.13
@@ -9599,7 +9641,7 @@
       "Números"
     ],
     "mecanicas": [
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 5.77
@@ -9619,10 +9661,10 @@
       "Deportes"
     ],
     "mecanicas": [
-      "Dice Rolling",
-      "Set Collection",
-      "Simulation",
-      "Variable Player Powers"
+      "Dados y movimiento",
+      "Colección de conjuntos",
+      "Simulación",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.25
@@ -9641,9 +9683,8 @@
       "Faroleo"
     ],
     "mecanicas": [
-      "Area Movement",
-      "Point to Point Movement",
-      "Secret Unit Deployment"
+      "Movimiento",
+      "Despliegue secreto de unidades"
     ],
     "modo": "competitivo",
     "rating": 4.69
@@ -9663,8 +9704,8 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Tile Placement"
+      "Colección de conjuntos",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 4.56
@@ -9684,10 +9725,10 @@
       "Transporte"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Route/Network Building",
-      "Stock Holding",
-      "Tile Placement"
+      "Apuestas y pujas",
+      "Construcción de rutas",
+      "Economía e intercambio",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 7.52
@@ -9707,7 +9748,7 @@
       "Temática de cine / TV / radio"
     ],
     "mecanicas": [
-      "Deck / Pool Building"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 7.08
@@ -9725,29 +9766,35 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 5.41
   },
   {
-    "id": 169987,
-    "nombre": "Maximum Throwdown: Overload",
-    "año": 2014,
+    "id": 146880,
+    "nombre": "Train Heist",
+    "año": 2013,
     "min_jugadores": 2,
-    "max_jugadores": 6,
-    "edad_minima": 0,
-    "tiempo_min": 0,
-    "tiempo_max": 0,
+    "max_jugadores": 4,
+    "edad_minima": 12,
+    "tiempo_min": 45,
+    "tiempo_max": 60,
     "categorias": [
-      "Acción / Destreza",
-      "Juego de cartas"
+      "Lejano Oeste estadounidense",
+      "Trenes"
     ],
     "mecanicas": [
-      "NA"
+      "Acciones de los jugadores",
+      "Juego cooperativo",
+      "Movimiento",
+      "Cartas y mazos",
+      "Recoger y entregar",
+      "Economía e intercambio",
+      "Poderes variables de los jugadores"
     ],
-    "modo": "competitivo",
-    "rating": 4.89
+    "modo": "cooperativo",
+    "rating": 7.25
   },
   {
     "id": 32928,
@@ -9763,8 +9810,8 @@
       "Sistema de juego"
     ],
     "mecanicas": [
-      "Partnerships",
-      "Trick-taking"
+      "Alianzas",
+      "Juegos de bazas"
     ],
     "modo": "competitivo",
     "rating": 7.39
@@ -9783,29 +9830,33 @@
       "Rompecabezas"
     ],
     "mecanicas": [
-      "Pattern Building"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 5.86
   },
   {
-    "id": 515,
-    "nombre": "6-Tage Rennen",
-    "año": 1986,
-    "min_jugadores": 3,
-    "max_jugadores": 8,
-    "edad_minima": 8,
-    "tiempo_min": 60,
-    "tiempo_max": 60,
+    "id": 2904,
+    "nombre": "John Prados' Third Reich",
+    "año": 2001,
+    "min_jugadores": 2,
+    "max_jugadores": 5,
+    "edad_minima": 12,
+    "tiempo_min": 360,
+    "tiempo_max": 360,
     "categorias": [
-      "Carreras",
-      "Deportes"
+      "Economía",
+      "Wargame",
+      "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "NA"
+      "Sistema de extracción de fichas",
+      "Dados y movimiento",
+      "Hexágonos y fichas",
+      "Simulación"
     ],
     "modo": "competitivo",
-    "rating": 6.89
+    "rating": 6.4
   },
   {
     "id": 25674,
@@ -9823,9 +9874,9 @@
       "Construcción de territorios"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Hand Management",
-      "Tile Placement"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Colocación de losetas"
     ],
     "modo": "competitivo",
     "rating": 6.39
@@ -9844,8 +9895,8 @@
       "Mafia"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Area Movement"
+      "Control del espacio",
+      "Movimiento"
     ],
     "modo": "competitivo",
     "rating": 5.38
@@ -9864,11 +9915,10 @@
       "Economía"
     ],
     "mecanicas": [
-      "Auction/Bidding",
-      "Card Drafting",
-      "Hand Management",
-      "Set Collection",
-      "Worker Placement"
+      "Apuestas y pujas",
+      "Cartas y mazos",
+      "Colección de conjuntos",
+      "Colocación de trabajadores"
     ],
     "modo": "competitivo",
     "rating": 5.91
@@ -9886,7 +9936,7 @@
       "Juego de cartas"
     ],
     "mecanicas": [
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 5.59
@@ -9906,9 +9956,8 @@
       "Combate"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Hand Management",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.5
@@ -9927,9 +9976,7 @@
       "Fantasía"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Deck / Pool Building",
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 6.67
@@ -9949,9 +9996,7 @@
       "Combate"
     ],
     "mecanicas": [
-      "Card Drafting",
-      "Deck / Pool Building",
-      "Hand Management"
+      "Cartas y mazos"
     ],
     "modo": "competitivo",
     "rating": 7.91
@@ -9971,11 +10016,11 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Campaign / Battle Card Driven",
-      "Dice Rolling",
-      "Point to Point Movement",
-      "Simulation"
+      "Control del espacio",
+      "Cartas y mazos",
+      "Dados y movimiento",
+      "Movimiento",
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.83
@@ -9995,8 +10040,8 @@
       "Tiempo real"
     ],
     "mecanicas": [
-      "Memory",
-      "Set Collection"
+      "Memoria",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 5.99
@@ -10017,9 +10062,9 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Acting",
-      "Role Playing",
-      "Storytelling"
+      "Actuación",
+      "Interpretación de roles",
+      "Narración"
     ],
     "modo": "competitivo",
     "rating": 6.4
@@ -10038,7 +10083,7 @@
       "Basado en novelas"
     ],
     "mecanicas": [
-      "Roll / Spin and Move"
+      "Dados y movimiento"
     ],
     "modo": "competitivo",
     "rating": 4.01
@@ -10062,9 +10107,9 @@
       "Mitología"
     ],
     "mecanicas": [
-      "Co-operative Play",
-      "Memory",
-      "Partnerships"
+      "Juego cooperativo",
+      "Memoria",
+      "Alianzas"
     ],
     "modo": "cooperativo",
     "rating": 5.79
@@ -10083,7 +10128,7 @@
       "Ciencia ficción"
     ],
     "mecanicas": [
-      "Variable Player Powers"
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.47
@@ -10102,7 +10147,7 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Trading"
+      "Economía e intercambio"
     ],
     "modo": "competitivo",
     "rating": 6.23
@@ -10123,28 +10168,32 @@
       "Humor"
     ],
     "mecanicas": [
-      "Modular Board"
+      "Tablero modular"
     ],
     "modo": "competitivo",
     "rating": 6.88
   },
   {
-    "id": 148179,
-    "nombre": "Oss",
-    "año": 2013,
+    "id": 172552,
+    "nombre": "Karmaka",
+    "año": 2016,
     "min_jugadores": 2,
-    "max_jugadores": 6,
-    "edad_minima": 7,
-    "tiempo_min": 30,
-    "tiempo_max": 30,
+    "max_jugadores": 4,
+    "edad_minima": 13,
+    "tiempo_min": 25,
+    "tiempo_max": 60,
     "categorias": [
-      "Acción / Destreza"
+      "Animales",
+      "Juego de cartas",
+      "Religioso"
     ],
     "mecanicas": [
-      "NA"
+      "Cartas y mazos",
+      "Colección de conjuntos",
+      "Interacción agresiva"
     ],
     "modo": "competitivo",
-    "rating": 5.81
+    "rating": 7.04
   },
   {
     "id": 20734,
@@ -10162,29 +10211,36 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Simulation"
+      "Simulación"
     ],
     "modo": "competitivo",
     "rating": 7.25
   },
   {
-    "id": 72460,
-    "nombre": "Into the Bastards!: First tank battle",
-    "año": 2011,
-    "min_jugadores": 2,
-    "max_jugadores": 2,
-    "edad_minima": 0,
-    "tiempo_min": 0,
-    "tiempo_max": 0,
+    "id": 128671,
+    "nombre": "Spartacus: A Game of Blood & Treachery",
+    "año": 2012,
+    "min_jugadores": 3,
+    "max_jugadores": 4,
+    "edad_minima": 17,
+    "tiempo_min": 150,
+    "tiempo_max": 150,
     "categorias": [
-      "Wargame",
-      "Primera Guerra Mundial"
+      "Antigüedad",
+      "Combate",
+      "Temática de cine / TV / radio",
+      "Negociación"
     ],
     "mecanicas": [
-      "NA"
+      "Apuestas y pujas",
+      "Dados y movimiento",
+      "Movimiento",
+      "Cartas y mazos",
+      "Economía e intercambio",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
-    "rating": 7.38
+    "rating": 7.48
   },
   {
     "id": 1559,
@@ -10200,10 +10256,10 @@
       "Combate"
     ],
     "mecanicas": [
-      "Action Point Allowance System",
-      "Area Movement",
-      "Dice Rolling",
-      "Variable Player Powers"
+      "Acciones de los jugadores",
+      "Movimiento",
+      "Dados y movimiento",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 5.52
@@ -10226,10 +10282,10 @@
       "Religioso"
     ],
     "mecanicas": [
-      "Acting",
-      "Hand Management",
-      "Memory",
-      "Singing"
+      "Actuación",
+      "Cartas y mazos",
+      "Memoria",
+      "Canto"
     ],
     "modo": "competitivo",
     "rating": 4.92
@@ -10253,8 +10309,7 @@
       "Juego de palabras"
     ],
     "mecanicas": [
-      "Pattern Building",
-      "Pattern Recognition"
+      "Patrones"
     ],
     "modo": "competitivo",
     "rating": 6.29
@@ -10272,8 +10327,8 @@
       "Estrategia abstracta"
     ],
     "mecanicas": [
-      "Point to Point Movement",
-      "Set Collection"
+      "Movimiento",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.23
@@ -10291,8 +10346,8 @@
       "Economía"
     ],
     "mecanicas": [
-      "Set Collection",
-      "Simultaneous Action Selection"
+      "Colección de conjuntos",
+      "Acciones de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.42
@@ -10310,9 +10365,9 @@
       "Juego de fiesta"
     ],
     "mecanicas": [
-      "Simultaneous Action Selection",
-      "Storytelling",
-      "Voting"
+      "Acciones de los jugadores",
+      "Narración",
+      "Votación"
     ],
     "modo": "competitivo",
     "rating": 6.59
@@ -10330,30 +10385,29 @@
       "Wargame"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 4.43
   },
   {
-    "id": 41496,
-    "nombre": "Chickyboom",
-    "año": 2008,
-    "min_jugadores": 2,
-    "max_jugadores": 4,
-    "edad_minima": 4,
-    "tiempo_min": 10,
-    "tiempo_max": 10,
+    "id": 147151,
+    "nombre": "Concept",
+    "año": 2013,
+    "min_jugadores": 4,
+    "max_jugadores": 12,
+    "edad_minima": 10,
+    "tiempo_min": 40,
+    "tiempo_max": 40,
     "categorias": [
-      "Acción / Destreza",
-      "Juego infantil",
-      "Educativo"
+      "Deducción",
+      "Juego de fiesta"
     ],
     "mecanicas": [
-      "NA"
+      "Alianzas"
     ],
     "modo": "competitivo",
-    "rating": 5.89
+    "rating": 6.98
   },
   {
     "id": 140600,
@@ -10373,10 +10427,10 @@
       "Piratas"
     ],
     "mecanicas": [
-      "Hand Management",
-      "Partnerships",
-      "Player Elimination",
-      "Variable Player Powers"
+      "Cartas y mazos",
+      "Alianzas",
+      "Eliminación de jugadores",
+      "Poderes variables de los jugadores"
     ],
     "modo": "competitivo",
     "rating": 6.21
@@ -10396,7 +10450,7 @@
       "Segunda Guerra Mundial"
     ],
     "mecanicas": [
-      "Hex-and-Counter"
+      "Hexágonos y fichas"
     ],
     "modo": "competitivo",
     "rating": 4.38
@@ -10414,7 +10468,7 @@
       "Animales"
     ],
     "mecanicas": [
-      "Set Collection"
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.86
@@ -10436,11 +10490,11 @@
       "Renacimiento"
     ],
     "mecanicas": [
-      "Area Control / Area Influence",
-      "Auction/Bidding",
-      "Memory",
-      "Pattern Recognition",
-      "Set Collection"
+      "Control del espacio",
+      "Apuestas y pujas",
+      "Memoria",
+      "Patrones",
+      "Colección de conjuntos"
     ],
     "modo": "competitivo",
     "rating": 6.8
