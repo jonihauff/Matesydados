@@ -21,12 +21,23 @@ cd Matesydados
 Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 
 ## Funcionalidades
-### TP-1
-- Buscar juego por nombre.
-- Listar juegos disponibles
-- Mostrar los datos de cada juego.
-- Filtrar por categoria.
-- Salir del programa
+
+- Buscar juegos por nombre usando un árbol AVL.
+- Explorar categorías por grupos usando un árbol general.
+- Listar todos los juegos disponibles.
+- Mostrar el Top 10 por rating usando un MaxHeap.
+  En caso de empate, los juegos se ordenan alfabéticamente por nombre.
+- Construir un grafo no dirigido y ponderado de juegos relacionados
+  por categorías y mecánicas compartidas. Las mecánicas del dataset
+  de trabajo están traducidas al español.
+
+### Menú de terminal
+
+1. Buscar juego por nombre
+2. Buscar por categoría
+3. Mostrar todos los juegos
+4. Mostrar ranking Top 10
+5. Salir
 
 ## Documentación:
 - [Requerimientos](docs/01-requerimientos.md)
@@ -53,10 +64,10 @@ python datos/generar_datasets.py
 | TP1     | Completado |
 | TP2     | Completado |
 | TP3     | Completado |
-| TP4     |  Pendiente |
-| TP5     |  Pendiente |
-| TP6     |  Pendiente |
-| TP7     |  Pendiente |
+| TP4     | Completado |
+| TP5     | Completado |
+| TP6     | Completado |
+| TP7     | Completado |
 | TP8     |  Pendiente |
 | TP9     |  Pendiente |
 | TP10    |  Pendiente |

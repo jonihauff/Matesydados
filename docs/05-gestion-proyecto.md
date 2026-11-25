@@ -99,3 +99,30 @@ Se integró el AVL al catálogo y se comprobó desde la terminal la búsqueda de
 El árbol general se integró a la busqueda por categorías. La selección numérica facilita la búsqueda y evita errores al escribir los nombres. La prueba confirmó que el árbol contiene las 80 categorías organizadas en nueve grupos.
 Fue dificil organizar las 80 categorías en grupos que fueran representativos y tuvieran tamaños equilibrados. También se preparó un dataset con las categorías traducidas y se quitaron los registros que no tenían categoría.
 
+### TP-6 y TP-7:
+
+#### Objetivos
+- Implementar manualmente un MaxHeap para obtener los juegos con mayor rating.
+- Integrar el Top 10 al catálogo y a la terminal.
+- Representar las relaciones entre juegos mediante un grafo no dirigido.
+- Construir el grafo usando las categorías y mecánicas compartidas por los juegos.
+
+#### Historias de usuario
+- Como usuario quiero consultar los 10 juegos mejor calificados en rating para identificar los mas destacados.
+- Como usuario quiero que el sistema relacione juegos con categorías y/o mecánicas compartidas para poder explorar esas conexiones en una etapa posterior.
+
+#### Criterios de aceptación
+- El MaxHeap debe estar implementado manualmente.
+- La prioridad debe ordenar por rating descendente y resolver empates por nombre alfabético.
+- El catálogo debe devolver hasta 10 juegos, o todos los disponibles si hay menos de 10.
+- La consulta del Top 10 debe operar sobre una copia del heap para conservar la estructura original.
+- Cada juego debe representarse como un vértice del grafo.
+- Dos juegos deben conectarse si comparten al menos una categoría o mecánica.
+- El grafo debe ser no dirigido y guardar en ambas direcciones cada arista.
+- El peso de una arista debe ser inversamente proporcional a la cantidad de categorías y mecánicas compartidas: a más elementos compartidos menor costo.
+- El grafo debe construirse después de cargar todos los juegos.
+
+#### Retrospectiva
+Que salió bien:
+Se integró el MaxHeap al catálogo y a la terminal para consultar el Top 10 por rating. También se definió el grafo como una representación de las relaciones entre juegos a partir de categorías y mecánicas compartidas.
+Se trabajo con el dataset para traducir y corregir mecánicas para los siguientes TPS.

@@ -74,6 +74,8 @@ classDiagram
         -list _juegos
         -AVL _arbol_nombre
         -ArbolGeneral _arbol_categorias
+        -MaxHeap _heap_juegos
+        -GrafoLista _grafo
         +cargar_datos() None
         +mostrar_todos() list
         +filtrar_por_categoria(categoria_buscada) list
@@ -81,7 +83,9 @@ classDiagram
         +obtener_grupos_categorias() list
         +obtener_categorias_de_grupo(nombre_grupo) list
         +buscar_por_nombre(nombre) Juego
+        +obtener_top(cantidad) list
         +__len__() int
+        -_construir_grafo() GrafoLista
     }
 
     class Terminal {
@@ -91,6 +95,29 @@ classDiagram
         -_mostrar_todos() None
         -_buscar_por_categoria() None
         -_buscar_por_nombre() None
+        -_mostrar_top_10() None
+    }
+
+    class MaxHeap {
+        -list _elementos
+        -funcion _mayor_prioridad
+        +esta_vacio() bool
+        +insertar(valor) None
+        +consultar_maximo() Juego
+        +extraer_maximo() Juego
+        +copiar() MaxHeap
+        +__len__() int
+    }
+
+    class GrafoLista {
+        -int n
+        -bool dirigido
+        -dict adj
+        +agregar_arista(u, v, peso) None
+        +eliminar_arista(u, v) None
+        +hay_arista(u, v) bool
+        +vecinos(u) list
+        +mostrar() None
     }
 
     Terminal --> Catalogo : usa
@@ -102,4 +129,7 @@ classDiagram
     Catalogo "1" *-- "1" ArbolGeneral : organiza categorías
     ArbolGeneral "1" *-- "0..1" NodoGeneral : raíz
     NodoGeneral "1" *-- "0..*" NodoGeneral : hijos
+    Catalogo "1" *-- "1" MaxHeap : mantiene ranking
+    MaxHeap "1" o-- "*" Juego : prioriza por rating
+    Catalogo "1" *-- "0..1" GrafoLista : construye relaciones
 ```
