@@ -13,6 +13,8 @@ class Terminal:
         print("3 - Mostrar todos los juegos")
         print("4 - Mostrar ranking TOP 10")
         print("5 - Salir")
+        print("6 - demostración BFS")
+        print("7 - Demostración DFS")
         print("-"*30)
         
     def inicio(self):
@@ -31,6 +33,10 @@ class Terminal:
             elif opcion == "5":
                 print("Gracias por visitarnos! Hasta luego.")
                 break
+            elif opcion == "6":
+                self._explorar_bfs()
+            elif opcion == "7":
+                self._explorar_dfs()
             else:
                 print("opción ingresada no valida, intente nuevamente")
                 
@@ -139,3 +145,49 @@ class Terminal:
         print("\nTop 10 juegos por rating:")
         for indice, juego in enumerate(juegos, start=1):
             print(f"{indice}. {juego.get_nombre()} — rating {juego.get_rating()}")    
+    
+    # BFS
+    def _explorar_bfs(self):
+        nombre = input("Ingrese el nombre del juego inicial: ").strip()
+        if not nombre:
+            print("No ha ingresado ningún nombre.")
+            return
+
+        juegos = self._catalogo.recorrer_bfs(nombre)
+
+        if juegos is None:
+            print(f"No se encontró el juego '{nombre}'.")
+            return
+
+        print(f"\nRecorrido BFS desde '{juegos[0].get_nombre()}':")
+
+        relacionados = juegos[1:]
+        if not relacionados:
+            print("Este juego no tiene conexiones.")
+            return
+
+        for indice, juego in enumerate(relacionados, start=1):
+            print(f"{indice}. {juego.get_nombre()}")
+            
+    def _explorar_dfs(self):
+        nombre = input("Ingrese el nombre del juego inicial: ").strip()
+        if not nombre:
+            print("No ha ingresado ningún nombre.")
+            return
+
+        juegos = self._catalogo.recorrer_dfs(nombre)
+
+        if juegos is None:
+            print(f"No se encontró el juego '{nombre}'.")
+            return
+
+        print(f"\nRecorrido DFS desde '{juegos[0].get_nombre()}':")
+
+        relacionados = juegos[1:]
+        if not relacionados:
+            print("Este juego no tiene conexiones.")
+            return
+
+        for indice, juego in enumerate(relacionados, start=1):
+            print(f"{indice}. {juego.get_nombre()}")
+    

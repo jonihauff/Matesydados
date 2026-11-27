@@ -4,6 +4,7 @@ from modelos.juego import Juego
 from servicios.jerarquia_categorias import crear_arbol_categorias
 from estructuras.heap import MaxHeap
 from estructuras.grafo import GrafoLista
+from algoritmos.recorridos import Recorridos
 
 class Catalogo:
     
@@ -21,7 +22,7 @@ class Catalogo:
         self._juegos.clear()
         self._arbol_nombre = AVL()
         self._heap_juegos = MaxHeap(mayor_prioridad=mayor_prioridad_juego)
-        self._grafo = self._construir_grafo()
+        
         
         clave_nombre = lambda j: j.get_nombre().lower()
     
@@ -43,6 +44,8 @@ class Catalogo:
             self._juegos.append(juego)
             self._arbol_nombre.insertar(juego, clave_nombre)
             self._heap_juegos.insertar(juego)
+        
+        self._grafo = self._construir_grafo()
         
         print(f"se cargaron {len(self._juegos)} juegos")
     
@@ -101,6 +104,26 @@ class Catalogo:
         
         return resultado
     
+    #recorridos BFS y DFS
+    def recorrer_bfs(self, nombre):
+        juego_inicio = self.buscar_por_nombre(nombre)
+        if juego_inicio is None or self._grafo is None:
+            return None
+
+        indice_inicio = self._juegos.index(juego_inicio)
+        indices = Recorridos(self._grafo).bfs(indice_inicio)
+        return [self._juegos[i] for i in indices]
+
+    def recorrer_dfs(self, nombre):
+        juego_inicio = self.buscar_por_nombre(nombre)
+        if juego_inicio is None or self._grafo is None:
+            return None
+
+        indice_inicio = self._juegos.index(juego_inicio)
+        indices = Recorridos(self._grafo).dfs_iterativo(indice_inicio)
+        return [self._juegos[i] for i in indices]
+    
+    #construye el grafo
     def _construir_grafo(self):
         cantidad = len(self._juegos)
         grafo = GrafoLista(cantidad, dirigido=False)
