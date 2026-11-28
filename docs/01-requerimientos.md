@@ -7,7 +7,7 @@
 - RF03 — El sistema debe permitir listar los juegos disponibles.
 - RF04 — El sistema debe permitir filtrar juegos por categoría.
 - RF05 — El sistema debe permitir mostrar los 10 juegos mejor calificados.
-
+- RF06 — El sistema debe recomendar un juego vecino al ingresado, priorizando la mayor cantidad de categorías y mecánicas compartidas. En caso de empate, debe priorizar el mayor rating y luego el nombre alfabéticamente.
 
 ## 6.2 Requerimientos no funcionales
 
@@ -18,5 +18,3 @@
 - RNF05 — El sistema debe estar organizado en módulos para separar los datos.
 
 ## 7. Fuera de alcance (por ahora)
-- No hay autenticación ni perfiles de usuario.
-- No hay sistema de recomendaciones similares a otro juego.

@@ -37,6 +37,7 @@ flowchart LR
         BFS["Demostración BFS"]
         DFS["Demostración DFS"]
         CAMINO["Demostración Dijkstra"]
+        RECOMENDAR["Recomendar juego por similitud"]
     end
 
     JSON -->|"cargar_datos()"| CAT
@@ -102,5 +103,14 @@ flowchart LR
     DIJKSTRA -->|"ruta de índices y costo, o None"| CAT
     CAT -->|"convierte índices en juegos"| LISTA
     CAT -->|"devuelve ruta y costo"| TERMINAL
+
+    TERMINAL --> RECOMENDAR
+    RECOMENDAR -->|"recomendar_juego(nombre)"| CAT
+    CAT -->|"busca el juego ingresado"| AVL
+    CAT -->|"consulta vecinos directos y pesos"| GRAFO
+    GRAFO -->|"devuelve vecinos y pesos"| CAT
+    CAT -->|"elige menor peso; desempata por rating y nombre"| LISTA
+    LISTA -->|"juego candidato"| CAT
+    CAT -->|"devuelve juego, coincidencias y rating"| TERMINAL
 
 ```

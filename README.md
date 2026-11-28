@@ -33,6 +33,7 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 - Demostrar BFS desde un juego inicial, mostrando los juegos alcanzables en orden por niveles.
 - Demostrar DFS iterativo desde un juego inicial, mostrando los juegos alcanzables en orden de exploración en profundidad.
 - Encontrar el camino de menor costo entre dos juegos con Dijkstra. El costo acumulado suma los pesos de las relaciones entre juegos.
+- Recomendar un juego relacionado, priorizando categorías y mecánicas compartidas; desempatar por rating y nombre.
 
 ### Menú de terminal
 
@@ -40,10 +41,11 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 2. Buscar por categoría
 3. Mostrar todos los juegos
 4. Mostrar ranking Top 10
-5. Salir
+5. Recomendar juego por similitud
 6. Demostración BFS
 7. Demostración DFS
 8. Demostración Dijkstra
+9. Salir
 
 ## Documentación:
 - [Requerimientos](docs/01-requerimientos.md)

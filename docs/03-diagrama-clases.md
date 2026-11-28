@@ -89,6 +89,7 @@ classDiagram
         +recorrer_bfs(nombre) list
         +recorrer_dfs(nombre) list
         +camino_minimo(nombre_origen, nombre_destino) tuple
+        +recomendar_juego(nombre) tuple
     }
 
     class Terminal {
@@ -102,6 +103,7 @@ classDiagram
         -_explorar_bfs() None
         -_explorar_dfs() None
         -_mostrar_camino_minimo() None
+        -_recomendar_juego() None
     }
 
     class MaxHeap {

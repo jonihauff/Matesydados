@@ -124,6 +124,7 @@ class Catalogo:
         indices = Recorridos(self._grafo).dfs_iterativo(indice_inicio)
         return [self._juegos[i] for i in indices]
     
+    # Camino minimo entre dos juegos
     def camino_minimo(self, nombre_origen, nombre_destino):
         juego_origen = self.buscar_por_nombre(nombre_origen)
         juego_destino = self.buscar_por_nombre(nombre_destino)
@@ -151,6 +152,37 @@ class Catalogo:
         juegos_ruta = [self._juegos[i] for i in indices_ruta]
 
         return juegos_ruta, costo_total
+    
+    # Recomendador de juegos
+    def recomendar_juego(self, nombre):
+        juego_origen = self.buscar_por_nombre(nombre)
+        if juego_origen is None or self._grafo is None:
+            return None
+
+        indice_origen = self._juegos.index(juego_origen)
+        vecinos = self._grafo.adj[indice_origen]
+
+        if not vecinos:
+            return None
+
+        menor_peso = min(vecinos.values())
+
+        candidatos = [
+            self._juegos[indice]
+            for indice, peso in vecinos.items()
+            if peso == menor_peso
+        ]
+
+        recomendado = min(
+            candidatos,
+            key=lambda juego: (
+                -juego.get_rating(),
+                juego.get_nombre().strip().casefold()
+            )
+        )
+
+        coincidencias = round(1 / menor_peso)
+        return recomendado, coincidencias
     
     #construye el grafo
     def _construir_grafo(self):

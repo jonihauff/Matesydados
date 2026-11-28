@@ -12,10 +12,11 @@ class Terminal:
         print("2 - Buscar por categoria")
         print("3 - Mostrar todos los juegos")
         print("4 - Mostrar ranking TOP 10")
-        print("5 - Salir")
+        print("5 - Recomendar juego similar")
         print("6 - demostración BFS")
         print("7 - Demostración DFS")
         print("8 - Demostración Dijkstra")
+        print("9 - Salir")
         print("-"*30)
         
     def inicio(self):
@@ -32,14 +33,16 @@ class Terminal:
             elif opcion == "4":
                 self._mostrar_top_10()
             elif opcion == "5":
-                print("Gracias por visitarnos! Hasta luego.")
-                break
+                self._recomendar_juego()
             elif opcion == "6":
                 self._explorar_bfs()
             elif opcion == "7":
                 self._explorar_dfs()
             elif opcion == "8":
                 self._mostrar_camino_minimo()
+            elif opcion == "9":
+                print("Gracias por visitarnos! Hasta luego.")
+                break
             else:
                 print("opción ingresada no valida, intente nuevamente")
                 
@@ -222,4 +225,30 @@ class Terminal:
         print("\nCamino de menor costo:")
         print(" -> ".join(nombres))
         print(f"Costo total: {costo_total:.4f}")
+        
+    # Recomendador
+    
+    def _recomendar_juego(self):
+        nombre = input("Ingrese el nombre de un juego: ").strip()
+        if not nombre:
+            print("No ha ingresado ningún nombre.")
+            return
+
+        resultado = self._catalogo.recomendar_juego(nombre)
+
+        if resultado is None:
+            print(
+                "No se pudo recomendar un juego. Verifique que el juego "
+                "exista y tenga juegos relacionados."
+            )
+            return
+
+        recomendado, coincidencias = resultado
+
+        print(f"\nTe recomendamos: {recomendado.get_nombre()}")
+        print(
+            "Coincidencias de categorías y mecánicas: "
+            f"{coincidencias}"
+        )
+        print(f"Rating: {recomendado.get_rating()}")
     

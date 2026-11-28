@@ -9,10 +9,11 @@ graph LR
         CU2(("CU02: Buscar por categoría"))
         CU3(("CU03: Mostrar todos los juegos"))
         CU4(("CU04: Mostrar Top 10"))
-        CU5(("CU05: Salir del sistema"))
+        CU5(("CU05: Recomendar juego por similitud"))
         CU6(("CU06: Demostración BFS"))
         CU7(("CU07: Demostración DFS"))
         CU8(("CU08: Demostración Dijkstra"))
+        CU9(("CU09: Salir del sistema"))
     end
 
     Usuario((Usuario)) --- CU1
@@ -23,6 +24,7 @@ graph LR
     Usuario --- CU6
     Usuario --- CU7
     Usuario --- CU8
+    Usuario --- CU9
 ```
 
 ---
@@ -85,12 +87,24 @@ graph LR
   * **A2 (Menos de 10 juegos):** Si hay menos de 10 juegos, el sistema muestra todos los disponibles.
 
 ---
-
-### CU 5: Salir del sistema
+### CU 5: Recomendar juego por similitud
 * **Actor:** Usuario
+* **Precondición:** Los juegos están cargados y el grafo ponderado está construido.
 * **Flujo Principal:**
-  1. El usuario selecciona la opción `5` ("Salir").
-  2. El sistema muestra un mensaje de despedida (*"Gracias por visitarnos! Hasta luego."*) y finaliza el bucle de ejecución.
+  1. El usuario selecciona la opción `5` ("Recomendar juego similar").
+  2. El sistema solicita el nombre de un juego.
+  3. El usuario ingresa el nombre.
+  4. El catálogo busca el juego y consulta sus vecinos directos en el grafo.
+  5. El sistema elige el vecino con menor peso, equivalente a la mayor cantidad de etiquetas compartidas.
+  6. Si hay empate, el sistema prioriza el rating más alto y luego el nombre alfabéticamente.
+  7. La terminal muestra el juego recomendado, la cantidad de coincidencias y su rating.
+* **Flujo Alternativo:**
+  * **A1 (Texto vacío):** El sistema informa que no se ingresó un nombre.
+  * **A2 (Juego inexistente o sin vecinos):** El sistema informa que no se pudo generar una recomendación.
+
+**Criterio de similitud:** El peso de cada arista es `1 / cantidad de etiquetas compartidas`; las etiquetas son las categorías y mecánicas distintas que comparten los juegos.
+
+---
 
 ### CU 6: Demostración BFS
 * **Actor:** Usuario
@@ -107,6 +121,8 @@ graph LR
   * **A2 (Juego inexistente):** El sistema informa que no encontró el juego.
   * **A3 (Sin conexiones):** El sistema informa que el juego no tiene conexiones.
 
+---
+
 ### CU 7: Demostración DFS
 * **Actor:** Usuario
 * **Precondición:** Los juegos están cargados en el catálogo y el grafo de relaciones está construido.
@@ -121,6 +137,8 @@ graph LR
   * **A1 (Texto vacío):** El sistema informa que no se ingresó ningún nombre y vuelve al menú.
   * **A2 (Juego inexistente):** El sistema informa que no encontró el juego.
   * **A3 (Sin conexiones):** El sistema informa que el juego no tiene conexiones.
+
+---
 
 ### CU 8: Demostración Dijkstra
 * **Actor:** Usuario
@@ -138,3 +156,11 @@ graph LR
   * **A2 (Juego inexistente o sin camino):** El sistema informa que no encontró un camino y pide verificar que ambos juegos existan y estén conectados.
 
 **Criterio de costo:** El costo total es la suma de los pesos de las aristas de la ruta. Cada arista pesa `1 / cantidad de categorías y mecánicas compartidas`; Dijkstra busca minimizar esa suma.
+
+---
+
+### CU 9: Salir del sistema
+* **Actor:** Usuario
+* **Flujo Principal:**
+  1. El usuario selecciona la opción `9` ("Salir").
+  2. El sistema muestra un mensaje de despedida (*"Gracias por visitarnos! Hasta luego."*) y finaliza el bucle de ejecución.
