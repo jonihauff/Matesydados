@@ -86,6 +86,8 @@ classDiagram
         +obtener_top(cantidad) list
         +__len__() int
         -_construir_grafo() GrafoLista
+        +recorrer_bfs(nombre) list
+        +recorrer_dfs(nombre) list
     }
 
     class Terminal {
@@ -96,6 +98,8 @@ classDiagram
         -_buscar_por_categoria() None
         -_buscar_por_nombre() None
         -_mostrar_top_10() None
+        -_explorar_bfs() None
+        -_explorar_dfs() None
     }
 
     class MaxHeap {
@@ -120,6 +124,14 @@ classDiagram
         +mostrar() None
     }
 
+    class Recorridos {
+        -GrafoLista _grafo
+        +__init__(grafo) None
+        +bfs(inicio) list
+        +dfs(inicio) list
+        +dfs_iterativo(inicio) list
+    }
+
     Terminal --> Catalogo : usa
     Catalogo "1" o-- "*" Juego : mantiene el catálogo
     Catalogo "1" *-- "1" AVL : busca por nombre
@@ -132,4 +144,6 @@ classDiagram
     Catalogo "1" *-- "1" MaxHeap : mantiene ranking
     MaxHeap "1" o-- "*" Juego : prioriza por rating
     Catalogo "1" *-- "0..1" GrafoLista : construye relaciones
+    Catalogo ..> Recorridos : ejecuta BFS y DFS
+    Recorridos --> GrafoLista : consulta vecinos
 ```

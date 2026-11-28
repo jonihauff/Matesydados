@@ -23,12 +23,18 @@ flowchart LR
         GRAFO["GrafoLista _grafo<br/>adyacencia ponderada no dirigida<br/>peso: 1 / etiquetas compartidas"]
     end
 
+    subgraph Algoritmos
+        RECORRIDOS["Recorridos<br/>BFS y DFS<br/>ignora los pesos"]
+    end
+
     subgraph Interfaz
         TERMINAL["Terminal"]
         BUSCAR["Buscar juego por nombre"]
         CATEGORIAS["Buscar por categoría"]
         TODOS["Mostrar todos los juegos"]
         TOP["Mostrar Top 10"]
+        BFS["Demostración BFS"]
+        DFS["Demostración DFS"]
     end
 
     JSON -->|"cargar_datos()"| CAT
@@ -73,5 +79,18 @@ flowchart LR
     HEAP -->|"juegos del Top 10"| CAT
     CAT -->|"devuelve resultados"| TERMINAL
 
-```
+    TERMINAL --> BFS
+    TERMINAL --> DFS
 
+    BFS -->|"recorrer_bfs(nombre)"| CAT
+    DFS -->|"recorrer_dfs(nombre)"| CAT
+
+    CAT -->|"busca el juego inicial"| AVL
+    CAT -->|"pasa el vértice inicial"| RECORRIDOS
+    RECORRIDOS -->|"consulta vecinos()"| GRAFO
+    GRAFO -->|"devuelve vecinos"| RECORRIDOS
+    RECORRIDOS -->|"devuelve índices visitados"| CAT
+    CAT -->|"convierte índices en juegos"| LISTA
+    CAT -->|"devuelve los juegos recorridos"| TERMINAL
+
+```

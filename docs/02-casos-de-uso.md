@@ -10,6 +10,8 @@ graph LR
         CU3(("CU03: Mostrar todos los juegos"))
         CU4(("CU04: Mostrar Top 10"))
         CU5(("CU05: Salir del sistema"))
+        CU6(("CU06: Demostración BFS"))
+        CU7(("CU07: Demostración DFS"))
     end
 
     Usuario((Usuario)) --- CU1
@@ -17,6 +19,8 @@ graph LR
     Usuario --- CU3
     Usuario --- CU4
     Usuario --- CU5
+    Usuario --- CU6
+    Usuario --- CU7
 ```
 
 ---
@@ -83,6 +87,35 @@ graph LR
 ### CU 5: Salir del sistema
 * **Actor:** Usuario
 * **Flujo Principal:**
-  1. El usuario selecciona la opción `4` ("Salir").
+  1. El usuario selecciona la opción `5` ("Salir").
   2. El sistema muestra un mensaje de despedida (*"Gracias por visitarnos! Hasta luego."*) y finaliza el bucle de ejecución.
 
+### CU 6: Demostración BFS
+* **Actor:** Usuario
+* **Precondición:** Los juegos están cargados en el catálogo y el grafo de relaciones está construido.
+* **Flujo Principal:**
+  1. El usuario selecciona la opción `6` ("Demostración BFS") en el menú.
+  2. El sistema solicita el nombre del juego inicial.
+  3. El usuario ingresa un nombre.
+  4. El catálogo busca el juego y obtiene su vértice inicial en el grafo.
+  5. El sistema aplica BFS y convierte los vértices recorridos en juegos.
+  6. La terminal muestra el juego inicial y los demás juegos en el orden del recorrido en amplitud.
+* **Flujo Alternativo:**
+  * **A1 (Texto vacío):** El sistema informa que no se ingresó ningún nombre y vuelve al menú.
+  * **A2 (Juego inexistente):** El sistema informa que no encontró el juego.
+  * **A3 (Sin conexiones):** El sistema informa que el juego no tiene conexiones.
+
+### CU 7: Demostración DFS
+* **Actor:** Usuario
+* **Precondición:** Los juegos están cargados en el catálogo y el grafo de relaciones está construido.
+* **Flujo Principal:**
+  1. El usuario selecciona la opción `7` ("Demostración DFS") en el menú.
+  2. El sistema solicita el nombre del juego inicial.
+  3. El usuario ingresa un nombre.
+  4. El catálogo busca el juego y obtiene su vértice inicial en el grafo.
+  5. El sistema aplica DFS iterativo y convierte los vértices recorridos en juegos.
+  6. La terminal muestra el juego inicial y los demás juegos en el orden de exploración en profundidad.
+* **Flujo Alternativo:**
+  * **A1 (Texto vacío):** El sistema informa que no se ingresó ningún nombre y vuelve al menú.
+  * **A2 (Juego inexistente):** El sistema informa que no encontró el juego.
+  * **A3 (Sin conexiones):** El sistema informa que el juego no tiene conexiones.

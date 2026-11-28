@@ -30,6 +30,8 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 - Construir un grafo no dirigido y ponderado de juegos relacionados
   por categorías y mecánicas compartidas. Las mecánicas del dataset
   de trabajo están traducidas al español.
+- Demostrar BFS desde un juego inicial, mostrando los juegos alcanzables en orden por niveles.
+- Demostrar DFS iterativo desde un juego inicial, mostrando los juegos alcanzables en orden de exploración en profundidad.
 
 ### Menú de terminal
 
@@ -38,6 +40,8 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 3. Mostrar todos los juegos
 4. Mostrar ranking Top 10
 5. Salir
+6. Demostración BFS
+7. Demostración DFS
 
 ## Documentación:
 - [Requerimientos](docs/01-requerimientos.md)
@@ -45,6 +49,9 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 - [Diagrama de clases](docs/03-diagrama-clases.md)
 - [Diagrama de datos](docs/04-diagrama-datos.md)
 - [Gestión del proyecto](docs/05-gestion-proyecto.md)
+- [Análisis TP 3](docs/07-analisis-tp3.md)
+- [Análisis TP 4-5](docs/08-analisis-tp4-5.md)
+- [Análisis TP 8](docs/09-analisis-tp8.md)
 
 ## Generación de datasets
 
@@ -68,6 +75,6 @@ python datos/generar_datasets.py
 | TP5     | Completado |
 | TP6     | Completado |
 | TP7     | Completado |
-| TP8     |  Pendiente |
+| TP8     | Completado |
 | TP9     |  Pendiente |
 | TP10    |  Pendiente |
