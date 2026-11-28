@@ -12,6 +12,7 @@ graph LR
         CU5(("CU05: Salir del sistema"))
         CU6(("CU06: Demostración BFS"))
         CU7(("CU07: Demostración DFS"))
+        CU8(("CU08: Demostración Dijkstra"))
     end
 
     Usuario((Usuario)) --- CU1
@@ -21,6 +22,7 @@ graph LR
     Usuario --- CU5
     Usuario --- CU6
     Usuario --- CU7
+    Usuario --- CU8
 ```
 
 ---
@@ -119,3 +121,20 @@ graph LR
   * **A1 (Texto vacío):** El sistema informa que no se ingresó ningún nombre y vuelve al menú.
   * **A2 (Juego inexistente):** El sistema informa que no encontró el juego.
   * **A3 (Sin conexiones):** El sistema informa que el juego no tiene conexiones.
+
+### CU 8: Demostración Dijkstra
+* **Actor:** Usuario
+* **Precondición:** Los juegos están cargados en el catálogo y el grafo ponderado está construido.
+* **Flujo Principal:**
+  1. El usuario selecciona la opción `8` ("Demostración Dijkstra") en el menú.
+  2. El sistema solicita el juego de origen y el juego de destino.
+  3. El usuario ingresa ambos nombres.
+  4. El catálogo busca los juegos y obtiene sus vértices en el grafo.
+  5. El sistema aplica Dijkstra sobre la adyacencia ponderada.
+  6. El catálogo convierte los vértices de la ruta en objetos `Juego`.
+  7. La terminal muestra la secuencia de juegos y el costo total de la ruta.
+* **Flujo Alternativo:**
+  * **A1 (Nombre vacío):** El sistema informa que se deben ingresar los nombres de ambos juegos.
+  * **A2 (Juego inexistente o sin camino):** El sistema informa que no encontró un camino y pide verificar que ambos juegos existan y estén conectados.
+
+**Criterio de costo:** El costo total es la suma de los pesos de las aristas de la ruta. Cada arista pesa `1 / cantidad de categorías y mecánicas compartidas`; Dijkstra busca minimizar esa suma.

@@ -25,6 +25,7 @@ flowchart LR
 
     subgraph Algoritmos
         RECORRIDOS["Recorridos<br/>BFS y DFS<br/>ignora los pesos"]
+        DIJKSTRA["dlista()<br/>Dijkstra"]
     end
 
     subgraph Interfaz
@@ -35,6 +36,7 @@ flowchart LR
         TOP["Mostrar Top 10"]
         BFS["Demostración BFS"]
         DFS["Demostración DFS"]
+        CAMINO["Demostración Dijkstra"]
     end
 
     JSON -->|"cargar_datos()"| CAT
@@ -92,5 +94,13 @@ flowchart LR
     RECORRIDOS -->|"devuelve índices visitados"| CAT
     CAT -->|"convierte índices en juegos"| LISTA
     CAT -->|"devuelve los juegos recorridos"| TERMINAL
+
+    TERMINAL --> CAMINO
+    CAMINO -->|"camino_minimo(nombre_origen, nombre_destino)"| CAT
+    CAT -->|"busca ambos juegos"| AVL
+    CAT -->|"pasa _grafo.adj y los vértices"| DIJKSTRA
+    DIJKSTRA -->|"ruta de índices y costo, o None"| CAT
+    CAT -->|"convierte índices en juegos"| LISTA
+    CAT -->|"devuelve ruta y costo"| TERMINAL
 
 ```

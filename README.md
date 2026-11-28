@@ -32,6 +32,7 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
   de trabajo están traducidas al español.
 - Demostrar BFS desde un juego inicial, mostrando los juegos alcanzables en orden por niveles.
 - Demostrar DFS iterativo desde un juego inicial, mostrando los juegos alcanzables en orden de exploración en profundidad.
+- Encontrar el camino de menor costo entre dos juegos con Dijkstra. El costo acumulado suma los pesos de las relaciones entre juegos.
 
 ### Menú de terminal
 
@@ -42,6 +43,7 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 5. Salir
 6. Demostración BFS
 7. Demostración DFS
+8. Demostración Dijkstra
 
 ## Documentación:
 - [Requerimientos](docs/01-requerimientos.md)
@@ -51,7 +53,8 @@ Tambien podes abrir directamente la carpeta con VSC u otro editor de código.
 - [Gestión del proyecto](docs/05-gestion-proyecto.md)
 - [Análisis TP 3](docs/07-analisis-tp3.md)
 - [Análisis TP 4-5](docs/08-analisis-tp4-5.md)
-- [Análisis TP 8](docs/09-analisis-tp8.md)
+- [Análisis TP 8](docs/09-analisis-TP8.md)
+- [Análisis TP9 — caminos mínimos](docs/10-analisis-TP9.md)
 
 ## Generación de datasets
 
@@ -76,5 +79,5 @@ python datos/generar_datasets.py
 | TP6     | Completado |
 | TP7     | Completado |
 | TP8     | Completado |
-| TP9     |  Pendiente |
+| TP9     | Completado |
 | TP10    |  Pendiente |

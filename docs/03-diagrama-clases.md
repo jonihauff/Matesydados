@@ -88,6 +88,7 @@ classDiagram
         -_construir_grafo() GrafoLista
         +recorrer_bfs(nombre) list
         +recorrer_dfs(nombre) list
+        +camino_minimo(nombre_origen, nombre_destino) tuple
     }
 
     class Terminal {
@@ -100,6 +101,7 @@ classDiagram
         -_mostrar_top_10() None
         -_explorar_bfs() None
         -_explorar_dfs() None
+        -_mostrar_camino_minimo() None
     }
 
     class MaxHeap {
@@ -132,6 +134,11 @@ classDiagram
         +dfs_iterativo(inicio) list
     }
 
+    class Dijkstra {
+        <<módulo>>
+        +dlista(grafo, origen, destino) tuple
+    }
+
     Terminal --> Catalogo : usa
     Catalogo "1" o-- "*" Juego : mantiene el catálogo
     Catalogo "1" *-- "1" AVL : busca por nombre
@@ -146,4 +153,6 @@ classDiagram
     Catalogo "1" *-- "0..1" GrafoLista : construye relaciones
     Catalogo ..> Recorridos : ejecuta BFS y DFS
     Recorridos --> GrafoLista : consulta vecinos
+    Catalogo ..> Dijkstra : llama dlista
+    Dijkstra ..> GrafoLista : usa la adyacencia ponderada
 ```
