@@ -15,6 +15,7 @@ class Terminal:
         print("5 - Salir")
         print("6 - demostración BFS")
         print("7 - Demostración DFS")
+        print("8 - Demostración Dijkstra")
         print("-"*30)
         
     def inicio(self):
@@ -37,6 +38,8 @@ class Terminal:
                 self._explorar_bfs()
             elif opcion == "7":
                 self._explorar_dfs()
+            elif opcion == "8":
+                self._mostrar_camino_minimo()
             else:
                 print("opción ingresada no valida, intente nuevamente")
                 
@@ -169,6 +172,7 @@ class Terminal:
         for indice, juego in enumerate(relacionados, start=1):
             print(f"{indice}. {juego.get_nombre()}")
             
+    # DFS
     def _explorar_dfs(self):
         nombre = input("Ingrese el nombre del juego inicial: ").strip()
         if not nombre:
@@ -190,4 +194,32 @@ class Terminal:
 
         for indice, juego in enumerate(relacionados, start=1):
             print(f"{indice}. {juego.get_nombre()}")
+            
+    # Dijkstra
+    def _mostrar_camino_minimo(self):
+        nombre_origen = input("Ingrese el juego de origen: ").strip()
+        nombre_destino = input("Ingrese el juego de destino: ").strip()
+
+        if not nombre_origen or not nombre_destino:
+            print("Debe ingresar los nombres de ambos juegos.")
+            return
+
+        resultado = self._catalogo.camino_minimo(
+            nombre_origen,
+            nombre_destino
+        )
+
+        if resultado is None:
+            print(
+                "No se encontró un camino. Verifique que ambos juegos "
+                "existan y estén conectados."
+            )
+            return
+
+        ruta, costo_total = resultado
+        nombres = [juego.get_nombre() for juego in ruta]
+
+        print("\nCamino de menor costo:")
+        print(" -> ".join(nombres))
+        print(f"Costo total: {costo_total:.4f}")
     

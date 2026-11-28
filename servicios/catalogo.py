@@ -5,6 +5,7 @@ from servicios.jerarquia_categorias import crear_arbol_categorias
 from estructuras.heap import MaxHeap
 from estructuras.grafo import GrafoLista
 from algoritmos.recorridos import Recorridos
+from algoritmos.dijkstra import dlista
 
 class Catalogo:
     
@@ -122,6 +123,34 @@ class Catalogo:
         indice_inicio = self._juegos.index(juego_inicio)
         indices = Recorridos(self._grafo).dfs_iterativo(indice_inicio)
         return [self._juegos[i] for i in indices]
+    
+    def camino_minimo(self, nombre_origen, nombre_destino):
+        juego_origen = self.buscar_por_nombre(nombre_origen)
+        juego_destino = self.buscar_por_nombre(nombre_destino)
+
+        if (
+            juego_origen is None
+            or juego_destino is None
+            or self._grafo is None
+        ):
+            return None
+
+        indice_origen = self._juegos.index(juego_origen)
+        indice_destino = self._juegos.index(juego_destino)
+
+        resultado = dlista(
+            self._grafo.adj,
+            indice_origen,
+            indice_destino
+        )
+
+        if resultado is None:
+            return None
+
+        indices_ruta, costo_total = resultado
+        juegos_ruta = [self._juegos[i] for i in indices_ruta]
+
+        return juegos_ruta, costo_total
     
     #construye el grafo
     def _construir_grafo(self):
